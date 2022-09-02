@@ -1,0 +1,27 @@
+body
+{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    background-image: linear-gradient( #92B2A7, #6E7B8C);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cabecalho
+{
+    background-color: #CFE0DD;
+    height: 55px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.texto_titulo1
+{
+    position: absolute;
+    font-size: 50px;
+    font-family:Georgia, serif;
+    color: white;
+
+}
