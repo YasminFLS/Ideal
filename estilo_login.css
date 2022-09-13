@@ -7,7 +7,37 @@ body
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+.logo_branca
+{
+    position: absolute;
+    width: 300px;
+    margin-left: 650px;
+    margin-top: 60px;
+
+}
 .caixa_login
 {
     background-color: #DDDDDD;
+    margin-top: 300px;
+    margin-left: 545px;
+    width: 513px;
+    height: 380px;
+    border-radius: 10px;
+    position: absolute;
+    border: 1px solid #686868;
+}
+.nome_texto
+{
+    font-size: larger;
+    margin-left: 175px;
+    font-family:'Lucida Sans Unicode';
+}
+.nome
+{
+    width: 400px;
+    margin-left: 50px;
+    border: 0px;
+    height: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(112, 112, 112) inset;
 }
