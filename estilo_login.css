@@ -11,7 +11,7 @@ body
 {
     position: absolute;
     width: 300px;
-    margin-left: 650px;
+    margin-left: 645px;
     margin-top: 60px;
 
 }
@@ -29,7 +29,7 @@ body
 .nome_texto
 {
     font-size: larger;
-    margin-left: 175px;
+    margin-left: 170px;
     font-family:'Lucida Sans Unicode';
 }
 .nome
@@ -37,7 +37,46 @@ body
     width: 400px;
     margin-left: 50px;
     border: 0px;
-    height: 20px;
+    height: 25px;
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgb(112, 112, 112) inset;
+}
+.senha_texto
+{
+    font-size: larger;
+    margin-top: 40px;
+    margin-left: 220px;
+    font-family:'Lucida Sans Unicode';
+}
+.senha
+{
+    width: 400px;
+    margin-left: 50px;
+    border: 0px;
+    height: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgb(112, 112, 112) inset;
+}
+.entrar_botao
+{
+    background-color: #49586B;
+    color: white;
+    font-family:Georgia, serif;
+    border: 0px;
+    border-radius: 6px;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 180px;
+    font-size: large;
+    position: absolute;
+}
+.pergunta_texto
+{
+    margin-top: 90px;
+    margin-left: 160px;
+}
+.cadastro_texto
+{
+    margin-left: 205px;
 }
