@@ -15,13 +15,127 @@ body
     width: 100%;
     margin: 0px;
     display: flex;
+    position: fixed;
     flex-direction: row;
 }
 .texto_titulo1
 {
     position: absolute;
-    font-size: 50px;
     font-family:Georgia, serif;
     color: white;
 
 }
+.cadastro_login
+{
+    background-color: #92B2A7;
+    border: 0px;
+    border-radius: 6px;
+    width: fit-content;
+    height: 30px;
+    margin-left: 1500px;
+    position: absolute;
+    font-size: larger;
+    margin-top: 10px;
+    font-family:Georgia, serif;
+}
+.botao_login
+{
+    background-color: #97aaa7;
+    border: 0px;
+    border-radius: 6px;
+    width: 80px;
+    height: 30px;
+    margin-left: 1410px;
+    position: absolute;
+    font-size: larger;
+    margin-top: 10px;
+    font-family:Georgia, serif;
+}
+.logo
+{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.agenda_simb
+{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.quiz_simb
+{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.primeiro
+{
+    font-size: 60px;
+    display: flex;
+    margin-left: 450px;
+    margin-top: 300px;
+    width: fit-content;
+    position: absolute;
+    width: 680px;
+    
+}
+.segundo
+{
+    font-size: 60px;
+    display: flex;
+    margin-left: 615px;
+    margin-top: 360px;
+    width: fit-content;
+    position: absolute;
+    width: 350px;
+    
+}
+.terceiro
+{
+    font-size: 25px;
+    display: flex;
+    margin-left: 535px;
+    margin-top: 450px;
+    width: fit-content;
+    position: absolute;
+    width: 620px;
+}
+.botao1
+{
+    background-color: #49586B;
+    color: white;
+    font-family:Georgia, serif;
+    border: 0px;
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    font-size: larger;
+    position: absolute;
+    margin-top: 510px;
+    margin-left: 720px;
+}
+.seta_esquerda
+{
+    margin-top: 390px;
+    position: absolute;
+    width: 55px;
+}
+.seta_direita
+{
+    margin-top: 390px;
+    position: absolute;
+    margin-left: 1545px;
+    width: 55px;
+
+}
+.bola_cheia
+{
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 780px;
+}
+.bola_vazia
+{
+    position: absolute;
+    margin-top: 570px;
+    margin-left: 800px;
+}
+
