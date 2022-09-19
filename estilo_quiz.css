@@ -67,6 +67,14 @@ body
     margin-top: 10px;
     font-family:Georgia, serif;
 }
+.cadastro_login:hover
+{
+    background-color: #688077;
+}
+.botao_login:hover
+{
+    background-color: #7a8f8c;
+}
 .sofa
 {
     width: 500px;
