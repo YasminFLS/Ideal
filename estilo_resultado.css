@@ -174,3 +174,10 @@ body {
     height: 200px;
     margin-left: 5px;
 }
+#servico
+{
+    background-color: #D9D9D9;
+    width: 80px;
+    position: absolute;
+    margin-top: 200px;
+}
