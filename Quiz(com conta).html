@@ -14,8 +14,7 @@
         <img class="agenda_simb" src="agenda_simbol.png" height="40px">
         <img class="quiz_simb" src="quiz_simbol.png" height="40px">
 
-        <input class="botao_login" type="button" value="Login">
-        <input class="cadastro_login" type="button" value="Cadastro">
+        <img class="ima" src="imagem.jpg"  height="40px">
     </div>
 
     <div class="inicio">
@@ -29,15 +28,15 @@
             Descubra sua estética com o nosso teste
         </p>
 
+        <a href="#foto_exemplo">
 
-        <input class="botao_quiz" type="button" value="Começar Quiz" onclick="alertaLogin()">
-        <div id="snackbar">Faça Login para realizar o quiz</div>
-
+        <input class="botao_quiz" type="button" value="Começar Quiz" >
+    </a>
     </div>
 
-    <img class="bola_cheia_preta" src="bolacheia_quiz.png" width="10px" height="10px">
-    <img class="bola_vazia_preta" src="bolavazia_quiz.png" width="10px" height="10px">
-    <img id="foto_exemplo" src="foto_exemplo.png" width="537px" height="311px">
+    <img class="bola_cheia_preta" src="bolacheia_quiz.png">
+    <img class="bola_vazia_preta" src="bolavazia_quiz.png">
+    <img id="foto_exemplo" src="foto_exemplo.png">
 
     <!--Apenas um exemplo, mais perguntas serão elaboradas-->
     <p class="pergunta1_titulo">
@@ -56,12 +55,5 @@
 
 
 </body>
-<script>
-    function alertaLogin() {
-      var x = document.getElementById("snackbar");
-      x.className = "show";
-      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-    }
-    </script>
 
 </html>

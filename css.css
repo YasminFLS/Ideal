@@ -1,12 +1,19 @@
-body
-{
+body {
     width: 100%;
     display: flex;
     margin: 0;
-    
+    overflow-y: scroll
 }
-.cabecalho
-{
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.cabecalho {
     width: 100%;
     height: 55px;
     margin-top: 0%;
@@ -15,8 +22,7 @@ body
     background-color: #CFE0DD;
 }
 
-#servico
-{
+#servico {
     width: 80px;
     height: 50px;
     display: flex;
@@ -26,8 +32,7 @@ body
     margin-left: 48px;
 }
 
-.botao1
-{
+.botao1 {
     background-color: #49586B;
     width: 200px;
     height: 60px;
@@ -40,8 +45,8 @@ body
     border-radius: 10px;
     color: #FFFFFF;
 }
-.botao2
-{
+
+.botao2 {
     background-color: #49586B;
     width: 170px;
     height: 60px;
@@ -56,8 +61,8 @@ body
     font-family: Georgia, serif;
     border: none;
 }
-.botao3
-{
+
+.botao3 {
     background-color: #49586B;
     width: 230px;
     height: 60px;
@@ -72,8 +77,8 @@ body
     font-family: Georgia, serif;
     border: none;
 }
-.botao4
-{
+
+.botao4 {
     background-color: #49586B;
     width: 240px;
     height: 60px;
@@ -89,8 +94,7 @@ body
     border: none;
 }
 
-.texto1
-{
+.texto1 {
     width: 500px;
     height: 50px;
     display: flex;
@@ -103,8 +107,7 @@ body
     font-family: Georgia, serif;
 }
 
-.texto2
-{
+.texto2 {
     width: 500px;
     height: 50px;
     display: flex;
@@ -117,8 +120,7 @@ body
     font-family: Georgia, serif;
 }
 
-.pessoa1
-{
+.pessoa1 {
     display: flex;
     position: absolute;
     align-items: center;
@@ -127,8 +129,7 @@ body
     border-radius: 320px;
 }
 
-#horario
-{
+#horario {
     width: 155px;
     height: 50px;
     display: flex;
@@ -143,8 +144,7 @@ body
     font-family: Georgia, serif;
 }
 
-.calendario
-{
+.calendario {
     width: 200px;
     height: 50px;
     display: flex;
@@ -159,26 +159,22 @@ body
     border-radius: 7px;
 }
 
-.logo
-{
+.logo {
     margin-top: 5px;
     margin-left: 7px;
 }
 
-.agendamento
-{
+.agendamento {
     margin-top: 5px;
     margin-left: 25px;
 }
 
-.quiz
-{
+.quiz {
     margin-top: 5px;
     margin-left: 25px;
 }
 
-.ima
-{
+.ima {
     margin-top: 5px;
     margin-left: 1270px;
     border-radius: 120px;
@@ -186,8 +182,7 @@ body
     width: 45px;
 }
 
-.julia
-{
+.julia {
     width: 60px;
     height: 60px;
     display: flex;
@@ -197,8 +192,8 @@ body
     margin-left: 199px;
     border-radius: 10px;
 }
-.carlos
-{
+
+.carlos {
     width: 60px;
     height: 60px;
     display: flex;
@@ -207,11 +202,10 @@ body
     margin-top: 425px;
     margin-left: 415px;
     border-radius: 10px;
-    
+
 }
 
-.paulo
-{
+.paulo {
     width: 60px;
     height: 60px;
     display: flex;
@@ -222,8 +216,7 @@ body
     border-radius: 10px;
 }
 
-.botao5
-{
+.botao5 {
     background-color: #49586B;
     width: 200px;
     height: 60px;

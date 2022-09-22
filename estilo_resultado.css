@@ -1,6 +1,15 @@
 body {
     width: 100%;
     margin: 0;
+    overflow-y: scroll
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .cabecalho {
@@ -107,12 +116,14 @@ body {
     border: 2px solid black;
     padding: 10px;
 }
-.paletas{
+
+.paletas {
     display: flex;
     flex-direction: row;
     height: fit-content;
     width: fit-content;
 }
+
 .cores1 {
     display: flex;
     flex-direction: row;
@@ -122,7 +133,7 @@ body {
     width: fit-content;
     border: 3px solid black;
     margin-left: 390px;
-    
+
 }
 
 .cor1 {
@@ -144,6 +155,7 @@ body {
     height: 200px;
     margin-left: 5px;
 }
+
 .cores2 {
     display: flex;
     flex-direction: row;
@@ -174,8 +186,8 @@ body {
     height: 200px;
     margin-left: 5px;
 }
-#servico
-{
+
+#servico {
     background-color: #D9D9D9;
     width: 80px;
     position: absolute;

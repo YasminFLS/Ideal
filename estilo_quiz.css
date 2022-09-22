@@ -1,11 +1,18 @@
-body
-{
+body {
     width: 100%;
     margin: 0;
+    overflow-y: scroll
 }
 
-.cabecalho
-{
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.cabecalho {
     background-color: #CFE0DD;
     height: 55px;
     width: 100%;
@@ -14,35 +21,35 @@ body
     position: fixed;
     flex-direction: row;
 }
-.inicio
-{
-    background-image: linear-gradient( #92B2A7, #6E7B8C);
+
+.inicio {
+    background-image: linear-gradient(#92B2A7, #6E7B8C);
     background-repeat: no-repeat;
     background-attachment: fixed;
     height: 795px;
 }
-.ver_result
-{
+
+.ver_result {
     width: fit-content;
     height: fit-content;
 }
-.logo
-{
+
+.logo {
     margin-top: 5px;
     margin-left: 25px;
 }
-.agenda_simb
-{
+
+.agenda_simb {
     margin-top: 5px;
     margin-left: 25px;
 }
-.quiz_simb
-{
+
+.quiz_simb {
     margin-top: 5px;
     margin-left: 25px;
 }
-.cadastro_login
-{
+
+.cadastro_login {
     background-color: #92B2A7;
     border: 0px;
     border-radius: 6px;
@@ -52,10 +59,10 @@ body
     position: absolute;
     font-size: larger;
     margin-top: 10px;
-    font-family:Georgia, serif;
+    font-family: Georgia, serif;
 }
-.botao_login
-{
+
+.botao_login {
     background-color: #97aaa7;
     border: 0px;
     border-radius: 6px;
@@ -65,57 +72,171 @@ body
     position: absolute;
     font-size: larger;
     margin-top: 10px;
-    font-family:Georgia, serif;
+    font-family: Georgia, serif;
 }
-.cadastro_login:hover
-{
+
+.cadastro_login:hover {
     background-color: #688077;
 }
-.botao_login:hover
-{
+
+.botao_login:hover {
     background-color: #7a8f8c;
 }
-.sofa
-{
+
+.sofa {
     width: 500px;
     margin-top: 130px;
     margin-left: 500px;
     position: static;
 }
-.quiz_logo
-{
+
+.quiz_logo {
     color: white;
-    font-family:Georgia, serif;
+    font-family: Georgia, serif;
     font-size: 90px;
     margin-left: 570px;
     margin-top: 0%;
 }
-.logo2
-{
+
+.logo2 {
     width: 150px;
     height: 80px;
 }
-.subtexto
-{
-    color:white;
-    font-family:Georgia, serif;
+
+.subtexto {
+    color: white;
+    font-family: Georgia, serif;
     font-size: larger;
     margin-left: 580px;
     font-weight: lighter;
     margin-top: -100px;
     width: fit-content;
 }
-.botao_quiz
-{
-        background-color: #49586B;
-        color: white;
-        font-family:Georgia, serif;
-        border: 0px;
-        border-radius: 6px;
-        width: 160px;
-        height: 60px;
-        margin-top: 20px;
-        margin-left: 670px;
-        font-size: larger;
-        position: absolute;
+
+.botao_quiz {
+    background-color: #49586B;
+    color: white;
+    font-family: Georgia, serif;
+    border: 0px;
+    border-radius: 6px;
+    width: 160px;
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 670px;
+    font-size: larger;
+}
+.bola_cheia_preta {
+    position: absolute;
+    margin-left: 730px;
+    margin-top: 20px;
+    width: 10px;
+    height: 10px;
+
+}
+.bola_vazia_preta {
+    position: absolute;
+    margin-left: 760px;
+    margin-top: 20px;
+    width: 10px;
+    height: 10px;
+
+}
+
+.ima {
+    margin-top: 5px;
+    margin-left: 1270px;
+    border-radius: 120px;
+    height: 45px;
+    width: 45px;
+}
+#foto_exemplo {
+    width: 537px; 
+    height: 311px;
+    margin-top: 150px;
+    margin-left: 470px;
+}
+#snackbar {
+    visibility: hidden;
+    /* Hidden by default. Visible on click */
+    min-width: 250px;
+    /* Set a default minimum width */
+    margin-left: -125px;
+    /* Divide value of min-width by 2 */
+    background-color: #333;
+    /* Black background color */
+    color: #fff;
+    /* White text color */
+    text-align: center;
+    /* Centered text */
+    border-radius: 2px;
+    /* Rounded borders */
+    padding: 16px;
+    /* Padding */
+    position: fixed;
+    /* Sit on top of the screen */
+    z-index: 1;
+    /* Add a z-index if needed */
+    left: 50%;
+    /* Center the snackbar */
+    bottom: 30px;
+    /* 30px from the bottom */
+}
+
+/* Show the snackbar when clicking on a button (class added with JavaScript) */
+#snackbar.show {
+    visibility: visible;
+    /* Show the snackbar */
+    /* Add animation: Take 0.5 seconds to fade in and out the snackbar.
+    However, delay the fade out process for 2.5 seconds */
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@keyframes fadein {
+    from {
+        bottom: 0;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 30px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
+}
+
+@keyframes fadeout {
+    from {
+        bottom: 30px;
+        opacity: 1;
+    }
+
+    to {
+        bottom: 0;
+        opacity: 0;
+    }
 }
