@@ -51,6 +51,14 @@ body
     margin-top: 10px;
     font-family:Georgia, serif;
 }
+.cadastro_login:hover
+{
+    background-color: #688077;
+}
+.botao_login:hover
+{
+    background-color: #7a8f8c;
+}
 .logo
 {
     margin-top: 5px;
@@ -137,5 +145,13 @@ body
     position: absolute;
     margin-top: 570px;
     margin-left: 800px;
+}
+.ima
+{
+    margin-top: 5px;
+    margin-left: 1270px;
+    border-radius: 120px;
+    height: 45px;
+    width: 45px;
 }
 

@@ -1,0 +1,183 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.cabecalho {
+    background-color: #CFE0DD;
+    height: 55px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+}
+
+.logo {
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.agenda_simb {
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.quiz_simb {
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.cadastro_login {
+    background-color: #92B2A7;
+    border: 0px;
+    border-radius: 6px;
+    width: fit-content;
+    height: 30px;
+    margin-left: 1500px;
+    position: absolute;
+    font-size: larger;
+    margin-top: 10px;
+    font-family: Georgia, serif;
+}
+
+.botao_login {
+    background-color: #97aaa7;
+    border: 0px;
+    border-radius: 6px;
+    width: 80px;
+    height: 30px;
+    margin-left: 1410px;
+    position: absolute;
+    font-size: larger;
+    margin-top: 10px;
+    font-family: Georgia, serif;
+}
+
+.cadastro_login:hover {
+    background-color: #688077;
+}
+
+.botao_login:hover {
+    background-color: #7a8f8c;
+}
+
+.exemplo_result {
+    margin-left: 300px;
+    margin-top: -20px;
+
+}
+
+.seu_estilo {
+    margin-top: 80px;
+    font-family: Georgia, serif;
+    font-size: 40px;
+    margin-left: 690px;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.result {
+    margin-top: -50px;
+    font-family: Garamond, serif;
+    font-size: 80px;
+    margin-left: 650px;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+.paleta_text {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    margin-left: 625px;
+    width: fit-content;
+    height: fit-content;
+}
+
+.paleta_text2 {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    margin-left: 500px;
+    margin-top: -40px;
+    width: 500px;
+    height: fit-content;
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+}
+.paletas{
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
+}
+.cores1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 300px;
+    height: fit-content;
+    width: fit-content;
+    border: 3px solid black;
+    margin-left: 390px;
+    
+}
+
+.cor1 {
+    background-color: #CB997E;
+    width: 100px;
+    height: 200px;
+}
+
+.cor2 {
+    background-color: #EEDDDD;
+    width: 100px;
+    height: 200px;
+    margin-left: 5px;
+}
+
+.cor3 {
+    background-color: #A5A58D;
+    width: 100px;
+    height: 200px;
+    margin-left: 5px;
+}
+.cores2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    width: 300px;
+    height: fit-content;
+    width: fit-content;
+    border: 3px solid black;
+    margin-left: 110px;
+}
+
+.cor4 {
+    background-color: #212529;
+    width: 100px;
+    height: 200px;
+}
+
+.cor5 {
+    background-color: #6C757C;
+    width: 100px;
+    height: 200px;
+    margin-left: 5px;
+}
+
+.cor6 {
+    background-color: #DADADA;
+    width: 100px;
+    height: 200px;
+    margin-left: 5px;
+}
+#servico
+{
+    background-color: #D9D9D9;
+    width: 80px;
+    position: absolute;
+    margin-top: 200px;
+}

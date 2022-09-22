@@ -11,6 +11,7 @@ body
     width: 100%;
     margin: 0px;
     display: flex;
+    position: fixed;
     flex-direction: row;
 }
 .inicio
@@ -18,9 +19,103 @@ body
     background-image: linear-gradient( #92B2A7, #6E7B8C);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    height: 795px;
 }
 .ver_result
 {
     width: fit-content;
     height: fit-content;
+}
+.logo
+{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.agenda_simb
+{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.quiz_simb
+{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.cadastro_login
+{
+    background-color: #92B2A7;
+    border: 0px;
+    border-radius: 6px;
+    width: fit-content;
+    height: 30px;
+    margin-left: 1500px;
+    position: absolute;
+    font-size: larger;
+    margin-top: 10px;
+    font-family:Georgia, serif;
+}
+.botao_login
+{
+    background-color: #97aaa7;
+    border: 0px;
+    border-radius: 6px;
+    width: 80px;
+    height: 30px;
+    margin-left: 1410px;
+    position: absolute;
+    font-size: larger;
+    margin-top: 10px;
+    font-family:Georgia, serif;
+}
+.cadastro_login:hover
+{
+    background-color: #688077;
+}
+.botao_login:hover
+{
+    background-color: #7a8f8c;
+}
+.sofa
+{
+    width: 500px;
+    margin-top: 130px;
+    margin-left: 500px;
+    position: static;
+}
+.quiz_logo
+{
+    color: white;
+    font-family:Georgia, serif;
+    font-size: 90px;
+    margin-left: 570px;
+    margin-top: 0%;
+}
+.logo2
+{
+    width: 150px;
+    height: 80px;
+}
+.subtexto
+{
+    color:white;
+    font-family:Georgia, serif;
+    font-size: larger;
+    margin-left: 580px;
+    font-weight: lighter;
+    margin-top: -100px;
+    width: fit-content;
+}
+.botao_quiz
+{
+        background-color: #49586B;
+        color: white;
+        font-family:Georgia, serif;
+        border: 0px;
+        border-radius: 6px;
+        width: 160px;
+        height: 60px;
+        margin-top: 20px;
+        margin-left: 670px;
+        font-size: larger;
+        position: absolute;
 }
