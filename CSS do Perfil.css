@@ -100,13 +100,13 @@ html {
 }
 
 .botao_usu {
-    width: 300px;
+    width: 500px;
     height: 70px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 620px;
-    margin-top: 730px;
+    margin-left: 720px;
+    margin-top: 90px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -119,13 +119,13 @@ html {
 }
 
 .botao_sen {
-    width: 300px;
+    width: 500px;
     height: 70px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 620px;
-    margin-top: 730px;
+    margin-left: 720px;
+    margin-top: 100px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -138,13 +138,13 @@ html {
 }
 
 .botao_tel {
-    width: 300px;
+    width: 500px;
     height: 70px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 620px;
-    margin-top: 730px;
+    margin-left: 720px;
+    margin-top: 200px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -156,14 +156,32 @@ html {
     font-weight: bold;
 }
 
-.botao_ima {
-    width: 300px;
+.botao_rua {
+    width: 500px;
     height: 70px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 620px;
-    margin-top: 730px;
+    margin-left: 720px;
+    margin-top: 300px;
+    flex-direction: row;
+    font-size: 23px;
+    justify-content: center;
+    margin: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    background-color: rgb(208, 236, 231);
+    border: 0px;
+    font-weight: bold;
+}
+.botao_bai {
+    width: 500px;
+    height: 70px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-left: 720px;
+    margin-top: 400px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -176,13 +194,27 @@ html {
 }
 
 .botao_bio {
-    width: 300px;
-    height: 70px;
-    display: flex;
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    margin-left: 720px;
+    margin-top: 500px;
+    font-size: 23px;
+    margin: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    background-color: rgb(208, 236, 231);
+    border: 0px;
+    font-weight: bold;
+}
+
+.botao_fin {
+    width: 250px;
+    height: 60px;
     position: absolute;
     align-items: center;
-    margin-left: 620px;
-    margin-top: 730px;
+    margin-left: 1240px;
+    margin-top: 710px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -193,15 +225,14 @@ html {
     border: 0px;
     font-weight: bold;
 }
-
-.botao_fin {
+.botao_foto {
     width: 300px;
     height: 70px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 620px;
-    margin-top: 730px;
+    margin-left: 160px;
+    margin-top: 470px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -234,4 +265,14 @@ html {
     border-radius: 120px;
     height: 45px;
     width: 45px;
+}
+.imagem_edit {
+    display: flex;
+    position: absolute;
+    margin-top: 230px;
+    align-items: center;
+    margin-left: 200px;
+    border-radius: 120px;
+    width: 230px;
+    height: 230px;
 }
