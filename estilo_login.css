@@ -1,22 +1,30 @@
-body
-{
+body {
     width: 100%;
     margin: 0;
     display: flex;
-    background-image: linear-gradient( #92B2A7, #6E7B8C);
+    background-image: linear-gradient(#92B2A7, #6E7B8C);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    overflow-y: scroll
 }
-.logo_branca
-{
+
+html {
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.logo_branca {
     position: absolute;
     width: 300px;
     margin-left: 645px;
     margin-top: 60px;
 
 }
-.caixa_login
-{
+
+.caixa_login {
     background-color: #DDDDDD;
     margin-top: 300px;
     margin-left: 545px;
@@ -26,14 +34,14 @@ body
     position: absolute;
     border: 1px solid #686868;
 }
-.nome_texto
-{
+
+.nome_texto {
     font-size: larger;
     margin-left: 170px;
-    font-family:'Lucida Sans Unicode';
+    font-family: 'Lucida Sans Unicode';
 }
-.nome
-{
+
+.nome {
     width: 400px;
     margin-left: 50px;
     border: 0px;
@@ -41,15 +49,15 @@ body
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgb(112, 112, 112) inset;
 }
-.senha_texto
-{
+
+.senha_texto {
     font-size: larger;
     margin-top: 40px;
     margin-left: 220px;
-    font-family:'Lucida Sans Unicode';
+    font-family: 'Lucida Sans Unicode';
 }
-.senha
-{
+
+.senha {
     width: 400px;
     margin-left: 50px;
     border: 0px;
@@ -57,11 +65,11 @@ body
     border-radius: 5px;
     box-shadow: 2px 2px 10px rgb(112, 112, 112) inset;
 }
-.entrar_botao
-{
+
+.entrar_botao {
     background-color: #49586B;
     color: white;
-    font-family:Georgia, serif;
+    font-family: Georgia, serif;
     border: 0px;
     border-radius: 6px;
     width: 130px;
@@ -71,12 +79,12 @@ body
     font-size: large;
     position: absolute;
 }
-.pergunta_texto
-{
+
+.pergunta_texto {
     margin-top: 90px;
     margin-left: 160px;
 }
-.cadastro_texto
-{
+
+.cadastro_texto {
     margin-left: 205px;
 }

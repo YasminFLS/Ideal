@@ -101,12 +101,12 @@ html {
 
 .botao_usu {
     width: 300px;
-    height: 70px;
+    height: 45px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 620px;
-    margin-top: 730px;
+    margin-left: 270px;
+    margin-top: 320px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -120,12 +120,12 @@ html {
 
 .botao_sen {
     width: 300px;
-    height: 70px;
+    height:  45px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 620px;
-    margin-top: 730px;
+    margin-left: 270px;
+    margin-top: 390px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -137,14 +137,15 @@ html {
     font-weight: bold;
 }
 
-.botao_tel {
+.botao_tel
+ {
     width: 300px;
-    height: 70px;
+    height:  45px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 620px;
-    margin-top: 730px;
+    margin-left: 270px;
+    margin-top: 460px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -158,12 +159,12 @@ html {
 
 .botao_ima {
     width: 300px;
-    height: 70px;
+    height:  45px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 620px;
-    margin-top: 730px;
+    margin-left: 270px;
+    margin-top: 530px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -176,12 +177,12 @@ html {
 }
 
 .botao_bio {
-    width: 300px;
-    height: 70px;
+    width: 150px;
+    height: 30px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 620px;
+    margin-left: 690px;
     margin-top: 730px;
     flex-direction: row;
     font-size: 23px;
@@ -189,18 +190,19 @@ html {
     margin: center;
     border-radius: 10px;
     font-family: 'Times New Roman';
-    background-color: rgb(208, 236, 231);
+    background-color: #49586B;
     border: 0px;
     font-weight: bold;
+    color: white;
 }
 
 .botao_fin {
-    width: 300px;
-    height: 70px;
+    width: 150px;
+    height: 30px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 620px;
+    margin-left: 860px;
     margin-top: 730px;
     flex-direction: row;
     font-size: 23px;
@@ -208,11 +210,51 @@ html {
     margin: center;
     border-radius: 10px;
     font-family: 'Times New Roman';
-    background-color: rgb(208, 236, 231);
+    background-color:#49586B;
     border: 0px;
     font-weight: bold;
+    color: white;
 }
-
+.botao_insi
+{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-left: 1030px;
+    margin-top: 730px;
+    flex-direction: row;
+    font-size: 23px;
+    justify-content: center;
+    margin: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    background-color: #49586B;
+    border: 0px;
+    font-weight: bold;
+    color: white;
+}
+.botao_exc
+{
+    width: 150px;
+    height: 30px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-left: 1200px;
+    margin-top: 730px;
+    flex-direction: row;
+    font-size: 23px;
+    justify-content: center;
+    margin: center;
+    border-radius: 10px;
+    font-family: 'Times New Roman';
+    background-color: #49586B;
+    border: 0px;
+    font-weight: bold;
+    color: white;
+}
 .logo {
     margin-top: 5px;
     margin-left: 7px;
@@ -234,4 +276,57 @@ html {
     border-radius: 120px;
     height: 45px;
     width: 45px;
+}
+.Data
+{
+    position: absolute;
+    color:black;
+    margin-top: 328px;
+    height: 120px;
+    width: 120px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+.Hora
+{
+    position: absolute;
+    color:black;
+    margin-top: 396px;
+    height: 120px;
+    width: 120px;
+    font-size: 30px;
+    margin-left: 200px;
+}
+.Usúario
+{
+    position: absolute;
+    color:black;
+    margin-top: 468px;
+    height: 120px;
+    width: 120px;
+    font-size: 30px;
+    margin-left: 165px;
+}
+.Profissional
+{
+    position: absolute;
+    color:black;
+    margin-top: 540px;
+    height: 120px;
+    width: 120px;
+    font-size: 30px;
+    margin-left: 115px;
+}
+.Titulo
+{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    align-items: center;
+    margin-left: 570px;
+    margin-top: 120px;
+    flex-direction: row;
+    font-size: 70px;
+    justify-content: center;
+    margin: center;
 }
