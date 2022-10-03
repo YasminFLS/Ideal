@@ -10,5 +10,5 @@
     $comando->bindValue(":telefone",$telefone);  
     $comando->execute();                               
 
-    header("Location:Início(com conta).html");
+    header("location: Login.html");
 ?>

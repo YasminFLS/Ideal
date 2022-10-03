@@ -11,43 +11,37 @@
 <body>
     <img class="logo_branca" src="logo_branca.png" height="152px" width="332">
 
-    <div class="caixa_cadastro">
-        <p class="nome_texto">
-            Nome de Usuário
-        </p>
-        <input class="nome" type="text">
-
-        <p class="senha_texto">
-            Senha
-        </p>
-        <input class="senha" type="password">
-
-        <p class="telefone_texto">
-            Telefone
-        </p>
-        <input class="telefone" type="text">
-
-        <br>
-
-        <input type="submit" name="Cadastrar" class="cadastrar_botao" onclick="alertaCadastro()">
-        <div id="snackbar">Cadastrado</div>
-
-        <p class="pergunta_texto">
-            Já tem uma conta?
-        </p>
-        <a href="Login.html">
-            <p class="cadastro_texto">
-                Faça Login
+    <form action="inserir.php" method="POST">
+        <div class="caixa_cadastro">
+            <p class="nome_texto">
+                Nome de Usuário
             </p>
-        </a>
-    </div>
+            <input class="nome" name="nome" type="text">
+
+            <p class="senha_texto">
+                Senha
+            </p>
+            <input class="senha" name="senha" type="password">
+
+            <p class="telefone_texto">
+                Telefone
+            </p>
+            <input class="telefone" name="telefone" type="text">
+
+            <br>
+
+            <input type="submit" name="Cadastrar" class="cadastrar_botao">
+
+            <p class="pergunta_texto">
+                Já tem uma conta?
+            </p>
+            <a href="Login.html">
+                <p class="cadastro_texto">
+                    Faça Login
+                </p>
+            </a>
+        </div>
+    </form>
 </body>
-<script>
-    function alertaCadastro() {
-      var x = document.getElementById("snackbar");
-      x.className = "show";
-      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
-    }
-    </script>
 
 </html>

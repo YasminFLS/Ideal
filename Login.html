@@ -11,20 +11,22 @@
 <body>
     <img class="logo_branca" src="logo_branca.png">
 
+    <form action="login.php" method="POST">
     <div class="caixa_login">
-        <p class="nome_texto">
+        <p class="nome_texto" >
             Nome de Usuário
         </p>
-        <input class="nome" type="text">
+        <input class="nome" type="text" name="nome">
 
-        <p class="senha_texto">
+        <p class="senha_texto"  >
             Senha
         </p>
-        <input class="senha" type="password">
+        <input class="senha" type="password" name="senha">
 
         <br>
 
-        <input class="entrar_botao" type="button" value="Entrar">
+
+        <input type="submit" name="Entrar" class="entrar_botao">
 
         <p class="pergunta_texto">
             Ainda não tem uma conta?
@@ -35,7 +37,7 @@
         </p>
 
     </div>
-
+</form>
 </body>
 
 </html>
