@@ -29,17 +29,25 @@
 
         <br>
 
-        <input class="cadastrar_botao" type="button" value="Cadastrar">
+        <input type="submit" name="Cadastrar" class="cadastrar_botao" onclick="alertaCadastro()">
+        <div id="snackbar">Cadastrado</div>
 
         <p class="pergunta_texto">
             Já tem uma conta?
         </p>
-
-        <p class="cadastro_texto">
-            Faça Login
-        </p>
-
+        <a href="Login.html">
+            <p class="cadastro_texto">
+                Faça Login
+            </p>
+        </a>
     </div>
 </body>
+<script>
+    function alertaCadastro() {
+      var x = document.getElementById("snackbar");
+      x.className = "show";
+      setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+    }
+    </script>
 
 </html>
