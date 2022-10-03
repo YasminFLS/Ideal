@@ -472,7 +472,7 @@ html {
     font-family: Georgia, serif;
     border: 0px;
     border-radius: 6px;
-    width: 150px;
+    width: fit-content;
     height: 60px;
     margin-top: 20px;
     margin-left: 10px;
@@ -489,6 +489,7 @@ html {
     text-align: center;
     margin-left: 320px;
     font-size: larger;
+    margin-top: 20px;
 }
 .p5_b {
     background-color: #49586B;
@@ -522,7 +523,7 @@ html {
     border-radius: 6px;
     width: fit-content;
     height: fit-content;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: 10px;
     font-size: larger;
     text-align: center;
@@ -531,4 +532,56 @@ html {
 {
     display: flex;
     flex-direction: row; 
+}
+
+.pagination {
+    display: inline-block;
+    margin-left: 680px;
+    margin-top: 25px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination a.active {
+    background-color: #92B2A7;
+    color: white;
+    border: 1px solid #92B2A7;
+  }
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+  .pagination2 {
+    display: inline-block;
+    margin-left: 667px;
+    margin-top: 60px;
+  }
+  
+  .pagination2 a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination2 a.active {
+    background-color: #92B2A7;
+    color: white;
+    border: 1px solid #92B2A7;
+  }
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  #fotopergunta1a {
+    width: 540px; 
+    height: 311px;
+    margin-top: 100px;
+    margin-left: 490px;
 }
