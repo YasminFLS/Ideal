@@ -46,13 +46,14 @@ html {
     color: #FFFFFF;
 }
 
-.botao2 {
+.botao-julia {
     background-color: #49586B;
     width: 170px;
     height: 60px;
     display: flex;
     position: absolute;
     align-items: center;
+    text-align: center;
     margin-top: 350px;
     margin-left: 250px;
     font-size: 30px;
@@ -62,13 +63,14 @@ html {
     border: none;
 }
 
-.botao3 {
+.botao-carlos {
     background-color: #49586B;
     width: 230px;
     height: 60px;
     display: flex;
     position: absolute;
     align-items: center;
+    text-align: center;
     margin-top: 470px;
     margin-left: 220px;
     font-size: 30px;
@@ -78,7 +80,7 @@ html {
     border: none;
 }
 
-.botao4 {
+.botao-paulo {
     background-color: #49586B;
     width: 240px;
     height: 60px;
@@ -87,6 +89,7 @@ html {
     align-items: center;
     margin-top: 590px;
     margin-left: 220px;
+    text-align: center;
     font-size: 30px;
     border-radius: 7px;
     color: #FFFFFF;
@@ -126,7 +129,33 @@ html {
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 580px;
+    margin-left: 250px;
+    margin-top: 130px;
+    flex-direction: row;
+    font-size: 45px;
+    font-family: Georgia, serif;
+}
+.texto4
+{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 130px;
+    flex-direction: row;
+    font-size: 45px;
+    font-family: Georgia, serif;
+}
+.texto5
+{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-left: 260px;
     margin-top: 130px;
     flex-direction: row;
     font-size: 45px;
@@ -219,6 +248,72 @@ html {
 }
 
 .paulo {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 545px;
+    margin-left: 190px;
+    border-radius: 10px;
+}
+.paula {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 325px;
+    margin-left: 199px;
+    border-radius: 10px;
+}
+
+.joao {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 425px;
+    margin-left: 415px;
+    border-radius: 10px;
+
+}
+
+.roberto {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 545px;
+    margin-left: 190px;
+    border-radius: 10px;
+}
+.matheus {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 325px;
+    margin-left: 199px;
+    border-radius: 10px;
+}
+
+.carla {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 425px;
+    margin-left: 415px;
+    border-radius: 10px;
+
+}
+
+.ramon {
     width: 60px;
     height: 60px;
     display: flex;
