@@ -11,9 +11,18 @@
 <body>
     <div class="cabecalho">
         <img class="logo" src="logo.png" height="40px">
-        <a href="Agendamentos.html"><img class="agenda_simb" src="agenda_simbol.png" height="40px"></a>
-        <a href="Quiz(com conta).html"><img class="quiz_simb" src="quiz_simbol.png" height="40px"></a>
-
+        <?php
+        session_start();
+        if ($_SESSION['tipo_usuario']==1){
+            echo '<a href="Agendamentos.html"><img class="agenda_simb" src="agenda_simbol.png" height="40px"></a>
+            <a href="quiz_com_conta.php"><img class="quiz_simb" src="quiz_simbol.png" height="40px"></a>';
+        }
+        if ($_SESSION['tipo_usuario']==0){
+            echo '<a href="Agendamentos.html"><img class="agenda_simb" src="agenda_simbol.png" height="40px"></a>
+            <a href="quiz_com_conta.php"><img class="quiz_simb" src="quiz_simbol.png" height="40px"></a>';
+        }
+        
+        ?>
         <img class="ima" src="imagem.jpg"  height="40px">
     </div>
 
