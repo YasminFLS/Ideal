@@ -23,7 +23,7 @@
         }
         
         ?>
-        <img class="ima" src="imagem.jpg"  height="40px">
+       <a href="Perfil.php"><img class="ima" src="imagem.jpg"  height="40px"></a>
     </div>
 
     <div class="texto_titulo1">

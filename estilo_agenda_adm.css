@@ -1,0 +1,139 @@
+body
+{
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+
+.cabecalho
+{
+    width: 100%;
+    height: 55px;
+    margin-top: 0%;
+    display: flex;
+    flex-direction: row;
+    background-color: #CFE0DD;
+}
+
+.texto1
+{
+    width: 500px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-left: 620px;
+    margin-top: 130px;
+    flex-direction: row;
+    font-size: 45px;
+    font-family: Georgia, serif;
+}
+
+.logo
+{
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.agendamento
+{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.quiz
+{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.ima
+{
+    margin-top: 5px;
+    margin-left: 1270px;
+    border-radius: 120px;
+    height: 45px;
+    width: 45px;
+}
+.hora_text
+{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 215px;
+    font-size: 40px;
+}
+.hora_edit
+{
+    background-color: #CFE0DD;
+    position: absolute;
+    border: none;
+    height: 35px;
+    width: 300px;
+    margin-top: 405px;
+    margin-left: 360px;
+    border-radius: 5px;
+}
+.prof_text
+{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 150px;
+    font-size: 40px;
+}
+.prof_edit
+{
+    background-color: #CFE0DD;
+    position: absolute;
+    border: none;
+    height: 35px;
+    width: 300px;
+    margin-top: 305px;
+    margin-left: 360px;
+    border-radius: 5px;
+}
+.data_text
+{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 265px;
+    font-size: 40px;
+}
+.data_edit
+{
+    background-color: #CFE0DD;
+    position: absolute;
+    border: none;
+    height: 35px;
+    width: 300px;
+    margin-top: 505px;
+    margin-left: 360px;
+    border-radius: 5px;
+}
+.show
+{
+    background-color: #49586B;
+    color: white;
+    position: absolute;
+    border: none;
+    font-size: 25px;
+    height: 40px;
+    width: 110px;
+    margin-top: 570px;
+    margin-left: 430px;
+    border-radius: 5px;
+    font-family: Georgia, serif;
+}
+.del
+{
+    background-color: #49586B;
+    color: white;
+    position: absolute;
+    border: none;
+    font-size: 25px;
+    height: 40px;
+    width: 110px;
+    margin-top: 570px;
+    margin-left: 555px;
+    border-radius: 5px;
+    font-family: Georgia, serif;
+}

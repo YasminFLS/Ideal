@@ -13,24 +13,49 @@ html {
     display: none;
 }
 
-
-
 .cabecalho {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 55px;
     background-color: #CFE0DD;
+    height: 55px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+}
+.logo
+{
+    margin-top: 5px;
+    margin-left: 205px;
 }
 
+.agendamento
+{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.quiz
+{
+    margin-top: 5px;
+    margin-left: 25px;
+}
+
+.ima
+{
+    margin-top: 5px;
+    margin-left: 1270px;
+    border-radius: 120px;
+    height: 45px;
+    width: 45px;
+}
 .texto {
-    width: 300px;
-    height: 300px;
+    width: fit-content;
+    height: fit-content;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 630px;
-    margin-top: 210px;
+    margin-left: 680px;
+    margin-top: 320px;
     flex-direction: row;
     font-size: 30px;
     justify-content: center;
@@ -38,7 +63,7 @@ html {
 }
 
 .caixa {
-    background-color: rgb(148, 158, 160);
+    background-color: #D5E2DF;
     border-radius: 10px;
     height: 190px;
     width: 580px;
@@ -63,40 +88,46 @@ html {
 
 .botao_hist {
     width: 300px;
-    height: 70px;
+    height: 55px;
     display: flex;
     position: absolute;
-    align-items: center;
     margin-left: 620px;
-    margin-top: 620px;
-    flex-direction: row;
+    margin-top: 630px;
     font-size: 23px;
     justify-content: center;
-    margin: center;
-    border-radius: 10px;
-    font-family: 'Times New Roman';
-    background-color: rgb(208, 236, 231);
+    border-radius: 5px;
+    font-family: Georgia, serif;
+    background-color: #CFE0DD;
     border: 0px;
-    font-weight: bold;
 }
 
-.botao_pesq {
+.botao_agend {
     width: 300px;
-    height: 70px;
+    height: 55px;
     display: flex;
     position: absolute;
-    align-items: center;
     margin-left: 620px;
-    margin-top: 730px;
-    flex-direction: row;
+    margin-top: 700px;
     font-size: 23px;
     justify-content: center;
-    margin: center;
     border-radius: 10px;
-    font-family: 'Times New Roman';
-    background-color: rgb(208, 236, 231);
+    font-family: Georgia, serif;
+    background-color: #CFE0DD;
     border: 0px;
-    font-weight: bold;
+}
+.botao_users {
+    width: 300px;
+    height: 55px;
+    display: flex;
+    position: absolute;
+    margin-left: 620px;
+    margin-top: 770px;
+    font-size: 23px;
+    justify-content: center;
+    border-radius: 10px;
+    font-family: Georgia, serif;
+    background-color: #CFE0DD;
+    border: 0px;
 }
 
 .botao_usu {
@@ -113,7 +144,7 @@ html {
     margin: center;
     border-radius: 10px;
     font-family: 'Times New Roman';
-    background-color: rgb(208, 236, 231);
+    background-color: #CFE0DD;
     border: 0px;
     font-weight: bold;
 }
@@ -275,4 +306,11 @@ html {
     border-radius: 120px;
     width: 230px;
     height: 230px;
+}
+.user_edit
+{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 860px;
+    width: 50px;
 }
