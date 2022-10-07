@@ -48,7 +48,7 @@ html {
 
 .botao-julia {
     background-color: #49586B;
-    width: 170px;
+    width: fit-content;
     height: 60px;
     display: flex;
     position: absolute;
@@ -65,7 +65,7 @@ html {
 
 .botao-carlos {
     background-color: #49586B;
-    width: 230px;
+    width: fit-content;
     height: 60px;
     display: flex;
     position: absolute;
@@ -82,7 +82,7 @@ html {
 
 .botao-paulo {
     background-color: #49586B;
-    width: 240px;
+    width: fit-content;
     height: 60px;
     display: flex;
     position: absolute;
@@ -96,7 +96,156 @@ html {
     font-family: Georgia, serif;
     border: none;
 }
+.botao-matheus {
+    background-color: #49586B;
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 250px;
+    font-size: 30px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    border: none;
+}
 
+.botao-carla {
+    background-color: #49586B;
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 470px;
+    margin-left: 255px;
+    font-size: 30px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    border: none;
+}
+
+.botao-ramon {
+    background-color: #49586B;
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 590px;
+    margin-left: 220px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    border: none;
+}
+.botao-paula {
+    background-color: #49586B;
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 250px;
+    font-size: 30px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    border: none;
+}
+
+.botao-joao {
+    background-color: #49586B;
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 470px;
+    margin-left: 290px;
+    font-size: 30px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    border: none;
+}
+
+.botao-roberto {
+    background-color: #49586B;
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 590px;
+    margin-left: 220px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    border: none;
+}
+.botao-pablo {
+    background-color: #49586B;
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 350px;
+    margin-left: 250px;
+    font-size: 30px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    border: none;
+}
+
+.botao-caique {
+    background-color: #49586B;
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    margin-top: 470px;
+    margin-left: 220px;
+    font-size: 30px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    border: none;
+}
+
+.botao-erick {
+    background-color: #49586B;
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 590px;
+    margin-left: 220px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 7px;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    border: none;
+}
 .texto1 {
     width: 500px;
     height: 50px;
@@ -323,8 +472,41 @@ html {
     margin-left: 190px;
     border-radius: 10px;
 }
+.pablo {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 325px;
+    margin-left: 199px;
+    border-radius: 10px;
+}
 
-.botao5 {
+.caique {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 425px;
+    margin-left: 415px;
+    border-radius: 10px;
+
+}
+
+.erick {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    margin-top: 545px;
+    margin-left: 190px;
+    border-radius: 10px;
+}
+
+.botao-agendar {
     background-color: #49586B;
     width: 200px;
     height: 60px;
