@@ -91,24 +91,6 @@ body
     margin-left: 360px;
     border-radius: 5px;
 }
-.data_text
-{
-    position: absolute;
-    margin-top: 500px;
-    margin-left: 265px;
-    font-size: 40px;
-}
-.data_edit
-{
-    background-color: #CFE0DD;
-    position: absolute;
-    border: none;
-    height: 35px;
-    width: 300px;
-    margin-top: 505px;
-    margin-left: 360px;
-    border-radius: 5px;
-}
 .show
 {
     background-color: #49586B;

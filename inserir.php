@@ -12,13 +12,4 @@
 
     header("location: Login.html");
 ?>
-<?php
-    include("conexao.php");
 
-    $telefone = $_POST["telefone"];
-    $profissional = $_POST["profissional"];
-    $comando = $pdo -> prepare("INSERT INTO usuario(nome_profissional,telefone_profissional) VALUES(:profissional,:telefone)");
-    $comando->bindValue(":profissional",$profissional);                                     
-    $comando->bindValue(":telefone",$telefone);  
-    $comando->execute();                               
-?>
