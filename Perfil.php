@@ -39,3 +39,7 @@
         if ($_SESSION['tipo_usuario']==1){
         echo '<input class="botao_users" type="button" value="Lista de Usuários">';
         }
+    ?>
+
+</body>
+</html>

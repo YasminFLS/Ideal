@@ -14,7 +14,7 @@
         <img class="agenda_simb" src="agenda_simbol.png" height="40px">
         <img class="quiz_simb" src="quiz_simbol.png" height="40px">
 
-        <img class="ima" src="imagem.jpg"  height="40px">
+        <img class="ima" src="imagem.jpg" height="40px">
     </div>
 
     <div class="inicio">
@@ -30,14 +30,19 @@
 
         <a href="#fotopergunta1">
 
-        <input class="botao_quiz" type="button" value="Começar Quiz" >
-    </a>
+            <input class="botao_quiz" type="button" value="Começar Quiz">
+        </a>
     </div>
 
     <img class="bola_cheia_preta" src="bolacheia_quiz.png">
     <img class="bola_vazia_preta" src="bolavazia_quiz.png">
-    <img id="fotopergunta1" src="fotopergunta1.png">
-
+    <?php
+        session_start();
+        if ($_SESSION['tipo_usuario']==1){
+    echo'<a href="Resultado_quiz_adm.html"><input class="botao_adm1" type="button" value="Administração Quiz"></a>
+    <img id="fotopergunta1" src="fotopergunta1.png">';
+        }
+        ?>
     <!--Apenas um exemplo, mais perguntas serão elaboradas-->
     <p class="pergunta1_titulo">
         Pergunta 1
