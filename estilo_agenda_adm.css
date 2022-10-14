@@ -59,7 +59,7 @@ body
 {
     position: absolute;
     margin-top: 400px;
-    margin-left: 215px;
+    margin-left: -1399px;
     font-size: 40px;
 }
 .hora_edit
@@ -70,14 +70,14 @@ body
     height: 35px;
     width: 300px;
     margin-top: 405px;
-    margin-left: 360px;
+    margin-left: -1240px;
     border-radius: 5px;
 }
 .prof_text
 {
     position: absolute;
     margin-top: 300px;
-    margin-left: 150px;
+    margin-left: -1450px;
     font-size: 40px;
 }
 .prof_edit
@@ -88,7 +88,7 @@ body
     height: 35px;
     width: 300px;
     margin-top: 305px;
-    margin-left: 360px;
+    margin-left: -1240px;
     border-radius: 5px;
 }
 .show
@@ -100,8 +100,8 @@ body
     font-size: 25px;
     height: 40px;
     width: 110px;
-    margin-top: 570px;
-    margin-left: 430px;
+    margin-top: 500px;
+    margin-left: -1170px;
     border-radius: 5px;
     font-family: Georgia, serif;
 }
@@ -114,8 +114,8 @@ body
     font-size: 25px;
     height: 40px;
     width: 110px;
-    margin-top: 570px;
-    margin-left: 555px;
+    margin-top: 500px;
+    margin-left: -1050px;
     border-radius: 5px;
     font-family: Georgia, serif;
 }
