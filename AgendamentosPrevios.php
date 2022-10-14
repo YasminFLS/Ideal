@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css-AgendamentosPrévios.css">
+    <link rel="stylesheet" href="css_AgendamentosPrévios.css">
     <title>Agendamentos Prévios</title>
 </head>
 <body>
@@ -20,7 +20,8 @@
         </p>
     </div>
 
-    <table border="1">
+    <br><br>
+    <table class="tabela_agenda" border="1">
         <thead>
             <tr>
                 <th>id_agendamentos</th>
@@ -38,14 +39,14 @@
 
                 foreach ($lista_agendamentos as $linha) {?>
                     <tr>
-                        <td> <?php echo $linha['id_agendamentos'];?></td>
-                        <td> <?php echo $linha['data'];?></td>
-                        <td> <?php echo $linha['horario'];?></td>
-                        <td> <?php echo $linha['id_profissional'];?></td>
-                        <td> <?php echo $linha['id_usuario'];?></td>
+                        <td> <?php echo $linha['id_agendamentos'];?> </td>
+                        <td> <?php echo $linha['data'];?> </td>
+                        <td> <?php echo $linha['horario'];?> </td>
+                        <td> <?php echo $linha['id_profissional'];?> </td>
+                        <td> <?php echo $linha['id_usuario'];?> </td>
                         
                 </tr>
-            <?php}
+            <?php }
             }
             ?>
         </tbody>

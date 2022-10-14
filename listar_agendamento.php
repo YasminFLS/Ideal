@@ -8,8 +8,7 @@
     if($comando->rowCount() >= 1)
     {
         $lista_agendamentos = $comando->fetchAll();
-    }else{
-        echo("Não há registros.");
+        
     }
 
     unset($comando);
