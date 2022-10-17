@@ -68,3 +68,9 @@ body
     height: 45px;
     width: 45px;
 }
+.tabela_result
+{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 580px;
+}
