@@ -11,19 +11,11 @@
 <body>
     <div class="cabecalho">
         <img class="logo" src="logo.png" height="40px">
-        <?php
-        session_start();
-        if ($_SESSION['tipo_usuario']==1){
-            echo '<a href="Agendamentos.html"><img class="agenda_simb" src="agenda_simbol.png" height="40px"></a>
-            <a href="quiz_com_conta.php"><img class="quiz_simb" src="quiz_simbol.png" height="40px"></a>';
-        }
-        if ($_SESSION['tipo_usuario']==0){
-            echo '<a href="Agendamentos.html"><img class="agenda_simb" src="agenda_simbol.png" height="40px"></a>
-            <a href="quiz_com_conta.php"><img class="quiz_simb" src="quiz_simbol.png" height="40px"></a>';
-        }
-        
-        ?>
-       <a href="Perfil.php"><img class="ima" src="imagem.jpg"  height="40px"></a>
+
+
+        <a href="Agendamentos.html"><img class="agenda_simb" src="agenda_simbol.png" height="40px"></a>
+        <a href="quiz_com_conta.php"><img class="quiz_simb" src="quiz_simbol.png" height="40px"></a>
+        <a href="Perfil.php"><img class="ima" src="imagem.jpg" height="40px"></a>
     </div>
 
     <div class="texto_titulo1">

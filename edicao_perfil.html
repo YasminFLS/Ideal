@@ -18,17 +18,19 @@
     
   
         <img class="imagem_edit" src="imagem.jpg"  height="40px">
-        <input class="botao_foto" type="button" value="Alterar Foto">
+        <input class="botao_foto" type="file" name="imagem" multiple accept="image/*">
 
   
 
+    <form action="inserir.php" method="POST">
     <input class="botao_usu" type="text" value="Alterar Usuário">
     <input class="botao_sen" type="text" value="Alterar Senha">
     <input class="botao_tel" type="text" value="Alterar Telefone">
     <input class="botao_rua" type="text" value="Alterar Rua">
     <input class="botao_bai" type="text" value="Alterar Bairro">
     <input class="botao_bio" type="text" value="Aterar Biografia">
-    <input class="botao_fin" type="button" value="Finalizar Edição">
+    <input class="botao_fin" type="submit" value="Finalizar Edição">
+    </form>
     
 
 </body>
