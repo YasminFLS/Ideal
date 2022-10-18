@@ -39,7 +39,7 @@
     <?php
         session_start();
         if ($_SESSION['tipo_usuario']==1){
-    echo'<a href="Resultado_quiz_adm.html"><input class="botao_adm1" type="button" value="Administração Quiz"></a>';
+    echo'<a href="Resultado_quiz_adm.php"><input class="botao_adm1" type="button" value="Administração Quiz"></a>';
         }
         ?>
         <img id="fotopergunta1" src="imagens/fotopergunta1.png">

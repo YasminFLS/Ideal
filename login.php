@@ -21,7 +21,7 @@
             $_SESSION['tipo_usuario'] = $resultado['tipo_usuario'];
             $_SESSION['loggedin'] = true;
 
-            header("location:inicio_com_conta.php");
+            header("location:inicio_com_conta.html");
 
         }else{
             echo("Email ou senha incorreto!");
