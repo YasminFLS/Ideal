@@ -32,7 +32,7 @@
         </thead>
         <tbody>
             <?php
-            include("listar_agendamento.php");
+            include("funcao/listar_agendamento.php");
 
             if(!empty($lista_resultados)){
 
