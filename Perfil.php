@@ -12,15 +12,15 @@
 
 
     <div class="cabecalho">
-        <img class="logo" src="logo.png" height="40px">
-        <img class="agendamento" src="Agendamento.png" height="40px">
-        <img class="quiz" src="quiz.png" height="40px">
-        <img class="ima" src="imagem.jpg" height="40px">
+        <img class="logo" src="imagens/logo.png" height="40px">
+        <img class="agendamento" src="imagens/Agendamento.png" height="40px">
+        <img class="quiz" src="imagens/quiz.png" height="40px">
+        <img class="ima" src="imagens/imagem.jpg" height="40px">
     </div>
 
 
-    <img class="imagem" src="imagem.jpg" height="40px">
-    <a href="edicao_perfil.html"><img class="user_edit" src="user_edit.png"></a>
+    <img class="imagem" src="imagens/imagem.jpg" height="40px">
+    <a href="edicao_perfil.html"><img class="user_edit" src="imagens/user_edit.png"></a>
 
 
     <div class="texto">

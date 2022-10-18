@@ -10,18 +10,18 @@
 
 <body>
     <div class="cabecalho">
-        <img class="logo" src="logo.png" width="70px" height="40px">
-        <img class="agenda_simb" src="agenda_simbol.png" height="40px">
-        <img class="quiz_simb" src="quiz_simbol.png" height="40px">
+        <img class="logo" src="imagens/logo.png" width="70px" height="40px">
+        <img class="agenda_simb" src="imagens/agenda_simbol.png" height="40px">
+        <img class="quiz_simb" src="imagens/quiz_simbol.png" height="40px">
 
-        <img class="ima" src="imagem.jpg" height="40px">
+        <img class="ima" src="imagens/imagem.jpg" height="40px">
     </div>
 
     <div class="inicio">
-        <img class="sofa" src="imagem_quiz_inicio.png">
+        <img class="sofa" src="imagens/imagem_quiz_inicio.png">
 
         <p class="quiz_logo">
-            Quiz <img class="logo2" src="logo.png">
+            Quiz <img class="logo2" src="imagens/logo.png">
         </p>
         <br>
         <p class="subtexto">
@@ -34,15 +34,15 @@
         </a>
     </div>
 
-    <img class="bola_cheia_preta" src="bolacheia_quiz.png">
-    <img class="bola_vazia_preta" src="bolavazia_quiz.png">
+    <img class="bola_cheia_preta" src="imagens/bolacheia_quiz.png">
+    <img class="bola_vazia_preta" src="imagens/bolavazia_quiz.png">
     <?php
         session_start();
         if ($_SESSION['tipo_usuario']==1){
-    echo'<a href="Resultado_quiz_adm.html"><input class="botao_adm1" type="button" value="Administração Quiz"></a>
-    <img id="fotopergunta1" src="fotopergunta1.png">';
+    echo'<a href="Resultado_quiz_adm.html"><input class="botao_adm1" type="button" value="Administração Quiz"></a>';
         }
         ?>
+        <img id="fotopergunta1" src="imagens/fotopergunta1.png">
     <!--Apenas um exemplo, mais perguntas serão elaboradas-->
     <p class="pergunta1_titulo">
         Pergunta 1
@@ -58,7 +58,7 @@
         <input class="p1_d" type="button" value="Cores vivas">
     </div>
 
-    <img id="fotopergunta2" src="fotopergunta2.png">
+    <img id="fotopergunta2" src="imagens/fotopergunta2.png">
 
     <!--Apenas um exemplo, mais perguntas serão elaboradas-->
     <p class="pergunta1_titulo">
@@ -75,7 +75,7 @@
         <input class="p2_d" type="button" value="Jogos">
     </div>
 
-    <img id="fotopergunta3" src="fotopergunta3.png">
+    <img id="fotopergunta3" src="imagens/fotopergunta3.png">
 
     <!--Apenas um exemplo, mais perguntas serão elaboradas-->
     <p class="pergunta1_titulo">
@@ -92,7 +92,7 @@
         <input class="p3_d" type="button" value="Africana">
     </div>
 
-    <img id="fotopergunta4" src="fotopergunta4.png">
+    <img id="fotopergunta4" src="imagens/fotopergunta4.png">
 
     <!--Apenas um exemplo, mais perguntas serão elaboradas-->
     <p class="pergunta1_titulo">
@@ -109,7 +109,7 @@
         <input class="p4_d" type="button" value="Tudo escuro, sou gótico!">
     </div>
 
-    <img id="fotopergunta5" src="fotopergunta5.png">
+    <img id="fotopergunta5" src="imagens/fotopergunta5.png">
 
     <!--Apenas um exemplo, mais perguntas serão elaboradas-->
     <p class="pergunta1_titulo">
