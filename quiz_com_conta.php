@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilo_quiz.css">
+    <script src="somatorio_quiz.js"></script>
     <title>Quiz</title>
 </head>
 
@@ -103,7 +104,7 @@
     </p>
 
     <div class="respostas4">
-        <input class="p4_a" type="button" value="Branca">
+        <input class="p4_a" type="button" value="Branca" onclick="somatorio_quiz()">
         <input class="p4_b" type="button" value="Tradicional">
         <input class="p4_c" type="button" value="Colorida">
         <input class="p4_d" type="button" value="Tudo escuro, sou gótico!">
