@@ -24,17 +24,25 @@ html {
 
 .logo {
     margin-top: 5px;
-    margin-left: 25px;
+    margin-left: 7px;
 }
 
-.agenda_simb {
+.agendamentos {
     margin-top: 5px;
     margin-left: 25px;
 }
 
-.quiz_simb {
+.quiz {
     margin-top: 5px;
     margin-left: 25px;
+}
+
+.ima {
+    margin-top: 5px;
+    margin-left: 1270px;
+    border-radius: 120px;
+    height: 45px;
+    width: 45px;
 }
 
 .cadastro_login {
