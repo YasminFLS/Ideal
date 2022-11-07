@@ -33,7 +33,36 @@
 
         <input type="submit" class="show" value="Inserir">
         <input type="button" class="del" value="Excluir">
+
+        
     </form>
+    <table class="tabela_agenda" border="1">
+        <thead>
+            <tr>
+                <th>id_profissional</th>
+                <th>nome_profissional<th>
+                <th>telefone_profissional</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <?php
+            include("listar_profissionais.php");
+
+            if(!empty($lista_agendamentos)){
+
+                foreach ($lista_agendamentos as $linha) {?>
+                    <tr>
+                        <td> <?php echo $linha['id_profissional'];?> </td>
+                        <td> <?php echo $linha['nome_profissional'];?> </td>
+                        <td> <?php echo $linha['telefone_profissional'];?> </td>
+
+                </tr>
+            <?php }
+            }
+            ?>
+        </tbody>
+    </table>
 </body>
 
 </html>
