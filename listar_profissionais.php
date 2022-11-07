@@ -9,7 +9,7 @@
     if($comando->rowCount() >= 1)
 {
 
-    $lista_profissiona = $comando->fetch();
+    $lista_profissional = $comando->fetch();
 
 }
     unset($comando);

@@ -49,9 +49,9 @@
             <?php
             include("listar_profissionais.php");
 
-            if(!empty($lista_agendamentos)){
+            if(!empty($lista_profissional)){
 
-                foreach ($lista_agendamentos as $linha) {?>
+                foreach ($lista_profissional as $linha) {?>
                     <tr>
                         <td> <?php echo $linha['id_profissional'];?> </td>
                         <td> <?php echo $linha['nome_profissional'];?> </td>
