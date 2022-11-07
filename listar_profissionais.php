@@ -7,10 +7,11 @@
     $comando->execute();
 
     if($comando->rowCount() >= 1)
-{
+    {
+    $lista_profissional = $comando->fetchAll();
+    }
 
-    $lista_profissional = $comando->fetch();
 
-}
     unset($comando);
     unset($pdo);
+?>

@@ -32,6 +32,13 @@
 
     <input type="submit" name="submit" class="botao1" value="Pesquisar" onclick="redirect()">
 
+    <?php
+        session_start();
+        if ($_SESSION['tipo_usuario']==1){
+    echo'<a href="Agendamentos_adm.php"><input class="botao_adm1" type="button" value="Administração agendamento"></a>';
+        }
+        ?>
+
     </select>
 </body>
 <script>
@@ -48,5 +55,7 @@
         }
     }
 </script>
+
+
 
 </html>
