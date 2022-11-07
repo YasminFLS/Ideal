@@ -9,7 +9,7 @@
     if($comando->rowCount() >= 1)
 {
 
-    $Agendamentos_adm = $comando->fetch();
+    $lista_profissiona = $comando->fetch();
 
 
     unset($comando);
