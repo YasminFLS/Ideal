@@ -23,11 +23,10 @@
     <table class="tabela_result" border="1">
         <thead>
             <tr>
-                <th>id_agendamentos</th>
-                <th>data<th>
-                <th>horário</th>
-                <th>id_profissional</th>
-                <th>id_usuario</th>
+                <th>id_resultado</th>
+                <th>nome_resultado<th>
+                <th>sequencia</th>
+                <th>id_quiz</th>
             </tr>
         </thead>
         <tbody>

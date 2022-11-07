@@ -42,7 +42,7 @@
     echo'<a href="Resultado_quiz_adm.php"><input class="botao_adm1" type="button" value="Administração Quiz"></a>';
         }
         ?>
-        <img id="fotopergunta1" src="imagens/fotopergunta1.png">
+    <img id="fotopergunta1" src="imagens/fotopergunta1.png">
     <!--Apenas um exemplo, mais perguntas serão elaboradas-->
     <p class="pergunta1_titulo">
         Pergunta 1
@@ -120,14 +120,17 @@
     </p>
 
     <div class="respostas5">
-        <input class="p5_a" type="button" 
-        value="Sim, não consigo mais
+        <input class="p5_a" type="button" value="Sim, não consigo mais
 ver o chão da minha casa." onclick="somatorio_quiz(1)">
-        <input class="p5_b" type="button" value="Sim, coleciono muito." onclick="somatorio_quiz(2)" >
+        <input class="p5_b" type="button" value="Sim, coleciono muito." onclick="somatorio_quiz(2)">
         <input class="p5_c" type="button" value="Coleciono apenas pequenos itens." onclick="somatorio_quiz(10)">
         <input class="p5_d" type="button" value="Não, não coleciono nenhum
 tipo de item,
 quanto menos melhor." onclick="somatorio_quiz(20)">
+
+        <p>
+            <input class="finalizar_botao" type="submit" value="Finalizar">
+        </p>
     </div>
 
 
