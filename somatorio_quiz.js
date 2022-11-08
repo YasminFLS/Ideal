@@ -4,7 +4,7 @@ function somatorio_quiz(valor){
   
 
    somatorio = somatorio + valor;
-   alert(somatorio);
+
     
 
 }
