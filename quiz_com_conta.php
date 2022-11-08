@@ -52,7 +52,7 @@
     </p>
 
     <div class="respostas1">
-        <input class="p1_a" type="button" value="Cores quentes" onclick="somatorio_quiz(65)">
+        <input class="p1_a" type="button" value="Cores quentes" onclick="somatorio_quiz(1)">
         <input class="p1_b" type="button" value="Cores frias" onclick="somatorio_quiz(73)">
         <input class="p1_c" type="button" value="Cores pastéis" onclick="somatorio_quiz(94)">
         <input class="p1_d" type="button" value="Cores vivas" onclick="somatorio_quiz(72)">
@@ -70,7 +70,7 @@
 
 
     <div class="respostas2">
-        <input class="p2_a" type="button" value="Urbano" onclick="somatorio_quiz(83)">
+        <input class="p2_a" type="button" value="Urbano" onclick="somatorio_quiz(1)">
         <input class="p2_b" type="button" value="Rural" onclick="somatorio_quiz(90)">
         <input class="p2_c" type="button" value="Praiano" onclick="somatorio_quiz(36)">
         <input class="p2_d" type="button" value="Florestal" onclick="somatorio_quiz(23)">
@@ -88,7 +88,7 @@
     </p>
 
     <div class="respostas3">
-        <input class="p3_a" type="button" value="Asiática" onclick="somatorio_quiz(73)">
+        <input class="p3_a" type="button" value="Asiática" onclick="somatorio_quiz(1)">
         <input class="p3_b" type="button" value="Européia" onclick="somatorio_quiz(50)">
         <input class="p3_c" type="button" value="Latino Americana" onclick="somatorio_quiz(11)">
         <input class="p3_d" type="button" value="Africana" onclick="somatorio_quiz(64)">
@@ -105,7 +105,7 @@
     </p>
 
     <div class="respostas4">
-        <input class="p4_a" type="button" value="Branca" onclick="somatorio_quiz(13)">
+        <input class="p4_a" type="button" value="Branca" onclick="somatorio_quiz(1)">
         <input class="p4_b" type="button" value="Tradicional" onclick="somatorio_quiz(84)">
         <input class="p4_c" type="button" value="Colorida" onclick="somatorio_quiz(69)">
         <input class="p4_d" type="button" value="Tudo escuro, sou gótico!" onclick="somatorio_quiz(17)">
@@ -123,7 +123,7 @@
 
     <div class="respostas5">
         <input class="p5_a" type="button" value="Sim, não consigo mais
-ver o chão da minha casa." onclick="somatorio_quiz(86)">
+ver o chão da minha casa." onclick="somatorio_quiz(1)">
         <input class="p5_b" type="button" value="Sim, coleciono muito." onclick="somatorio_quiz(59)">
         <input class="p5_c" type="button" value="Coleciono apenas pequenos itens." onclick="somatorio_quiz(43)">
         <input class="p5_d" type="button" value="Não, não coleciono nenhum
