@@ -1,15 +1,14 @@
-function somatorio_quiz(valor){
-    var somatorio = getCookie("somatorio");
+var somatorio = 0;
 
-    if (somatorio == ''){
-        document.cookie = 'somatorio = valor'
-    }else{
-        somatorio = document.cookie
-        alert(somatorio)
-        somatorio += $valor
-        document.cookie = `somatorio = ${somatorio}`
-        
-    }
+function somatorio_quiz(valor){
+  
+
+   somatorio = somatorio + valor;
+   alert(somatorio);
     
 
+}
+function abrir()
+{
+    window.open("Resultado.php?somatorio="+somatorio, "_self");
 }

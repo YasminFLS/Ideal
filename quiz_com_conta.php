@@ -129,7 +129,7 @@ tipo de item,
 quanto menos melhor." onclick="somatorio_quiz(20)">
 
         <p>
-            <input class="finalizar_botao" type="submit" value="Finalizar">
+            <input class="finalizar_botao" type="button" value="Finalizar" onclick="abrir();">
         </p>
     </div>
 

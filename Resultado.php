@@ -1,5 +1,7 @@
 <!DOCTYPE html>
-
+<?php
+$somatorio=$_GET["somatorio"];
+?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -20,7 +22,12 @@
         Seu estilo é
     </p>
     <p class="result">
-        Exemplo
+    <?php
+    if($somatorio==0)
+    {
+        echo "Simples";
+    }
+    ?>
     </p>
 
     <img class="exemplo_result" src="imagens/exemplo result.png">
@@ -49,6 +56,7 @@
             <div class="cor6"></div>
         </div>
     </div>
+    
 </body>
 
 </html>
