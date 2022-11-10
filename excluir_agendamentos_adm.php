@@ -1,12 +1,15 @@
 <?php
     include("conexao.php");
 
-    $codigo = $_POST['codigo'];
+    $codigo = $_GET['codigo'];
 
     //comando sql.
-    $comando->prepare('DELETE FROM agendamentos WHERE id_agendamentos = :codigo;');
+    $comando->prepare('DELETE FROM profissional WHERE id_profissional = :codigo;');
     //executa a consulta no banco de dados.
     $comando->execute();
 
-    header("location: Agendamentos_adm.html");
+    header("location:Agendamentos_adm.php");
+
+    unset($comando);
+    unset($pdo);
 ?>

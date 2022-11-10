@@ -32,8 +32,8 @@
         <input type="text" class="hora_edit" name="telefone">
 
         <input type="submit" class="show" value="Inserir">
-        <input type="button" class="del" value="Excluir">
 
+        <input type="button" class="del" value="Excluir">
         
     </form>
     <table class="tabela_agenda" border="1">
@@ -42,7 +42,6 @@
                 <th>id_profissional</th>
                 <th>nome_profissional<th>
                 <th>telefone_profissional</th>
-
             </tr>
         </thead>
         <tbody>
@@ -56,8 +55,7 @@
                         <td> <?php echo $linha['id_profissional'];?> </td>
                         <td> <?php echo $linha['nome_profissional'];?> </td>
                         <td> <?php echo $linha['telefone_profissional'];?> </td>
-
-                </tr>
+                    </tr>
             <?php }
             }
             ?>
