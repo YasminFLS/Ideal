@@ -21,11 +21,11 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     <form action="editar_profissional.php?codigo=<?php echo $_GET['codigo'];?>" method="POST" enctype="multipart/form-data">
         <label>Nome:</label>
         <br>
-        <input type="text" name="nome" value="<?php echo $profissional['nome_profissional']?>">
+        <input type="text" name="nome" value="Nome">
         <br>
-        <label>Email:</label>
+        <label>Telefone:</label>
         <br>
-        <input type="text" name="telefone" value="<?php echo $profissional['telefone_profissional']?>">
+        <input type="text" name="telefone" value="Telefone">
         <br>
         <input type="submit" value="Atualizar" name="submit">
     </form>
