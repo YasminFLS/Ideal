@@ -33,9 +33,6 @@
 
         <input type="submit" class="show" value="Inserir">
 
-        <a href="editar.php?codigo=<?php echo $linha['pk_usuario']?>">
-        <input class="edit" type="submit" name="submit" value="Editar">
-        </a>
         
     </form>
     <table class="tabela_agenda" border="1">
@@ -57,6 +54,10 @@
                         <td> <?php echo $linha['id_profissional'];?> </td>
                         <td> <?php echo $linha['nome_profissional'];?> </td>
                         <td> <?php echo $linha['telefone_profissional'];?> </td>
+                        </td>
+                        <td> <a href="editar_profissional_pag.php?codigo=<?php echo $linha['id_profissional']?>">
+                                <input type="button" value="Editar">
+                            </a>
                         </td>
                         <td> <a href="excluir_agendamentos_adm.php?codigo=<?php echo $linha['id_profissional']?>">
                                 <input type="button" value="Excluir">
