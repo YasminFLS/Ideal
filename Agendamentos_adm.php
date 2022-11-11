@@ -33,7 +33,9 @@
 
         <input type="submit" class="show" value="Inserir">
 
-        <input type="button" class="del" value="Excluir">
+        <a href="editar.php?codigo=<?php echo $linha['pk_usuario']?>">
+        <input class="edit" type="submit" name="submit" value="Editar">
+        </a>
         
     </form>
     <table class="tabela_agenda" border="1">
@@ -55,11 +57,13 @@
                         <td> <?php echo $linha['id_profissional'];?> </td>
                         <td> <?php echo $linha['nome_profissional'];?> </td>
                         <td> <?php echo $linha['telefone_profissional'];?> </td>
-                    </tr>
-                    <td> <a href="excluir_agendamentos_adm.php?codigo=<?php echo $linha['id_profissional']?>">
+                        </td>
+                        <td> <a href="excluir_agendamentos_adm.php?codigo=<?php echo $linha['id_profissional']?>">
                                 <input type="button" value="Excluir">
                             </a>
                         </td>
+                    </tr>
+                    
             <?php }
             }
             ?>

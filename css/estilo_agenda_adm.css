@@ -119,3 +119,23 @@ body
     border-radius: 5px;
     font-family: Georgia, serif;
 }
+.tabela_agenda
+{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 900px;
+}
+.edit
+{
+    background-color: #49586B;
+    color: white;
+    position: absolute;
+    border: none;
+    font-size: 25px;
+    height: 40px;
+    width: 110px;
+    margin-top: 500px;
+    margin-left: -1050px;
+    border-radius: 5px;
+    font-family: Georgia, serif;
+}
