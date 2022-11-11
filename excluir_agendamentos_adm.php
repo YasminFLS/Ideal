@@ -5,6 +5,8 @@
 
     //comando sql.
     $comando->prepare('DELETE FROM profissional WHERE id_profissional = :codigo;');
+
+    $comando->bindValue(':codigo',$codigo);
     //executa a consulta no banco de dados.
     $comando->execute();
 

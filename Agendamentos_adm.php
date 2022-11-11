@@ -56,6 +56,10 @@
                         <td> <?php echo $linha['nome_profissional'];?> </td>
                         <td> <?php echo $linha['telefone_profissional'];?> </td>
                     </tr>
+                    <td> <a href="excluir_agendamentos_adm.php?codigo=<?php echo $linha['id_profissional']?>">
+                                <input type="button" value="Excluir">
+                            </a>
+                        </td>
             <?php }
             }
             ?>
