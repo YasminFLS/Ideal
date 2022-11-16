@@ -89,7 +89,7 @@ html {
     font-size: 60px;
     display: flex;
     margin-left: 450px;
-    margin-top: 300px;
+    margin-top: 200px;
     width: fit-content;
     position: absolute;
     width: 680px;
@@ -100,7 +100,7 @@ html {
     font-size: 60px;
     display: flex;
     margin-left: 600px;
-    margin-top: 360px;
+    margin-top: 260px;
     width: fit-content;
     position: absolute;
     width: 350px;
@@ -111,7 +111,7 @@ html {
     font-size: 25px;
     display: flex;
     margin-left: 535px;
-    margin-top: 450px;
+    margin-top: 350px;
     width: fit-content;
     position: absolute;
     width: 620px;
@@ -120,7 +120,7 @@ html {
     font-size: 60px;
     display: flex;
     margin-left: 470px;
-    margin-top: 300px;
+    margin-top: 200px;
     width: fit-content;
     position: absolute;
     width: 680px;
@@ -131,7 +131,7 @@ html {
     font-size: 60px;
     display: flex;
     margin-left: 666px;
-    margin-top: 360px;
+    margin-top: 260px;
     width: fit-content;
     position: absolute;
     width: 350px;
@@ -142,7 +142,7 @@ html {
     font-size: 25px;
     display: flex;
     margin-left: 535px;
-    margin-top: 450px;
+    margin-top: 350px;
     width: fit-content;
     position: absolute;
     width: 620px;
@@ -154,19 +154,19 @@ html {
     font-family: Georgia, serif;
     border: 0px;
     border-radius: 6px;
-    width: 150px;
-    height: 40px;
-    font-size: larger;
+    width: 180px;
+    height: 65px;
+    font-size: 30px;
     position: absolute;
-    margin-top: 510px;
-    margin-left: -80px;
+    margin-top: 480px;
+    margin-left: -95px;
     cursor: pointer;
 }
 
-
 .ima {
+    position: absolute;
+    right: 20px;
     margin-top: 5px;
-    margin-left: 1270px;
     border-radius: 120px;
     height: 45px;
     width: 45px;
