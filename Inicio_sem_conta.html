@@ -12,35 +12,53 @@
     <div class="cabecalho">
         <img class="logo" src="imagens/logo.png" height="40px">
 
+        <a href="Agendamentos.php"><img class="agenda_simb" src="imagens/agenda_simbol.png" height="40px"></a>
 
-        <a href="Agendamentos.html"><img class="agenda_simb" src="imagens/agenda_simbol.png" height="40px"></a>
         <a href="Quiz.html"><img class="quiz_simb" src="imagens/quiz_simbol.png" height="40px"></a>
 
         <a href="Login.html"><input class="botao_login" type="button" value="Login"></a>
-        <input class="cadastro_login" type="button" value="Cadastro">
+
+        <a href="Cadastro.html"><input class="cadastro_login" type="button" value="Cadastro"></a>
 
     </div>
+    <div class="corpo">
+        <form>
 
-    <div class="texto_titulo1">
-        <p class="primeiro">
-            Descubra sua estética em
-        </p>
+            <input type="radio" class="texto_titulo1" name="fancy" autofocus value="slide1" id="slide1"  />
+            <input type="radio" name="fancy" value="slide2" id="slide2" />
+            <label for="slide1">
+                <p class="primeiro">
+                    Descubra sua estética em
+                </p>
 
-        <p class="segundo">
-            grande estilo
-        </p>
+                <p class="segundo">
+                    grande estilo
+                </p>
 
-        <p class="terceiro">
-            Anule suas incertezas com o nosso quiz online
-        </p>
+                <p class="terceiro">
+                    Anule suas incertezas com o nosso quiz online
+                </p>
+                <a href="Quiz.html"><input class="botao1" type="button" value="Saiba Mais"></a>
+            </label>
+            <label for="slide2">
+                <p class="quarto">
+                    Fale Com Profissionais
+                </p>
 
-        <a href="Quiz.html"><input class="botao1" type="button" value="Saiba Mais"></a>
+                <p class="quinto">
+                    da área
+                </p>
 
-        <img class="seta_esquerda" src="imagens/seta_esquerda.png">
-        <img class="seta_direita" src="imagens/seta_direita.png">
-        <img class="bola_cheia" src="imagens/bola_cheia.png">
-        <img class="bola_vazia" src="imagens/bola_vazia.png">
+                <p class="sexto">
+                    Agende agora sua reunião presencial ou remota
+                </p>
+                <a href="Agendamentos.php"><input class="botao1" type="button" value="Saiba Mais"></a>
+            </label>
+
+            <div class="keys">Use as setas do teclado para navegar</div>
+        </form>
     </div>
+
 </body>
 
 </html>
