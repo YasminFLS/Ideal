@@ -143,7 +143,8 @@ html {
     display: flex;
     position: absolute;
     align-items: center;
-    margin-top: 40px;
+    margin-left: -600px;
+    margin-top: 80px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -161,7 +162,8 @@ html {
     display: flex;
     position: absolute;
     align-items: center;
-    margin-top: 110px;
+    margin-left: -600px;
+    margin-top: 140px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -179,7 +181,8 @@ html {
     display: flex;
     position: absolute;
     align-items: center;
-    margin-top: 180px;
+    margin-left: -600px;
+    margin-top: 200px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -197,7 +200,8 @@ html {
     display: flex;
     position: absolute;
     align-items: center;
-    margin-top: 250px;
+    margin-left: -600px;
+    margin-top: 260px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -214,6 +218,7 @@ html {
     display: flex;
     position: absolute;
     align-items: center;
+    margin-left: -600px;
     margin-top: 320px;
     flex-direction: row;
     font-size: 23px;
@@ -230,8 +235,8 @@ html {
     width: 500px;
     height: 150px;
     position: absolute;
-    margin-top: 410px;
-    margin-left: 330px;
+    margin-left: -600px;
+    margin-top: 380px;
     font-size: 23px;
     margin: center;
     border-radius: 10px;
@@ -246,8 +251,8 @@ html {
     height: 60px;
     position: absolute;
     align-items: center;
-    margin-left: 330px;
-    margin-top: 600px;
+    margin-left: -600px;
+    margin-top: 550px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -259,18 +264,17 @@ html {
     font-weight: bold;
 }
 .botao_foto {
-    width: 300px;
-    height: 70px;
+    width: fit-content;
+    height: fit-content;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 160px;
+    margin-left: -1390px;
     margin-top: 470px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
     margin: center;
-    border-radius: 10px;
     font-family: 'Times New Roman';
     background-color: #CFE0DD;
     border: 0px;
