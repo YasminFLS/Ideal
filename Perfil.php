@@ -1,4 +1,7 @@
 <?php session_start(); ?>
+<?php
+include("listar_usuario.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -21,6 +24,7 @@
 
     <img class="imagem" src="<?php echo $_SESSION['foto_usuario']; ?>" height="40px">
     <a href="edicao_perfil.php"><img class="user_edit" src="imagens/user_edit.png"></a>
+    <a href="Login.html"><img class="logout_icon" src="imagens/logout_icon.png"></a>
 
 
     <div class="texto">

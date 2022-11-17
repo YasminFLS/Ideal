@@ -1,5 +1,4 @@
 <?php session_start(); ?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -16,7 +15,7 @@
         <a href="inicio_com_conta.php"><img class="logo" src="imagens/logo.png" height="40px"></a>
         <img class="agendamento" src="imagens/Agendamento.png" height="40px">
         <a href="quiz_com_conta.php"><img class="quiz" src="imagens/quiz.png" height="40px"></a>
-        <a href="Perfil.php"><img class="ima" src="imagens/imagem.jpg" height="40px"></a>
+        <a href="Perfil.php"><img class="ima" src="<?php echo $_SESSION['foto_usuario']; ?> height="40px"></a>
     </div>
 
     <p class="texto_servico">
