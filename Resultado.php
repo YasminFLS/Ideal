@@ -81,7 +81,7 @@ $somatorio=$_GET["somatorio"];
     <?php
     if($somatorio==113)
     {
-        echo "Chinoiserie";
+        echo "Ecletic";
     }
 
 
