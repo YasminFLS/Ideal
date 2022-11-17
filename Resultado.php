@@ -81,7 +81,7 @@ $somatorio=$_GET["somatorio"];
     <?php
     if($somatorio==113)
     {
-        echo "Ecletic";
+        echo "Chinoiserie";
     }
 
 
@@ -190,6 +190,229 @@ $somatorio=$_GET["somatorio"];
     
     ?>
 
+<?php
+    if($somatorio==127)
+    {
+        echo "Chinoiserie";
+    }
+
+
+    ?>
+
+    </p>
+
+    <?php
+    if($somatorio==127)
+    {
+        echo '<img class="Africano" src="imagens/Africano.png">';
+    }
+    
+    ?>
+
+    <p class="paleta_text">
+        Paletas de Cores
+    </p>
+
+    <?php
+    if($somatorio==127)
+    {
+        echo '<p class="paleta_text2">
+        As cores mais usadas em designs desse estilo são cores vibrantes que remetem a cultura chinesa.
+        Em sua maioria são usadas uma mistura de cores quentes e leves jogadas de tons de azul.
+    </p>';
+    }
+    
+    ?>
+
+    <br>
+
+    <?php
+    if($somatorio==127)
+    {
+        echo '<div class="paletas_chinoiserie">
+        <div class="cores1">
+            <div class="cor1"></div>
+            <div class="cor2"></div>
+            <div class="cor3"></div>
+        </div>
+
+        <div class="cores2">
+            <div class="cor4"></div>
+            <div class="cor5"></div>
+            <div class="cor6"></div>
+        </div>
+    </div>';
+    }
+    
+    ?>
+
+<?php
+    if($somatorio==135)
+    {
+        echo "Chinoiserie";
+    }
+
+
+    ?>
+
+    </p>
+
+    <?php
+    if($somatorio==135)
+    {
+        echo '<img class="Japonês_Rural" src="imagens/Japonês_Rural.png">';
+    }
+    
+    ?>
+
+    <p class="paleta_text">
+        Paletas de Cores
+    </p>
+
+    <?php
+    if($somatorio==135)
+    {
+        echo '<p class="paleta_text2">
+        As cores mais usadas em designs desse estilo são cores vibrantes que remetem a cultura chinesa.
+        Em sua maioria são usadas uma mistura de cores quentes e leves jogadas de tons de azul.
+    </p>';
+    }
+    
+    ?>
+
+    <br>
+
+    <?php
+    if($somatorio==135)
+    {
+        echo '<div class="paletas_chinoiserie">
+        <div class="cores1">
+            <div class="cor1"></div>
+            <div class="cor2"></div>
+            <div class="cor3"></div>
+        </div>
+
+        <div class="cores2">
+            <div class="cor4"></div>
+            <div class="cor5"></div>
+            <div class="cor6"></div>
+        </div>
+    </div>';
+    }
+    
+    ?>
+
+<?php
+    if($somatorio==157)
+    {
+        echo "Chinoiserie";
+    }
+
+
+    ?>
+
+    </p>
+
+    <?php
+    if($somatorio==157)
+    {
+        echo '<img class="europeu_rural" src="imagens/europeu_rural.png">';
+    }
+    
+    ?>
+
+    <p class="paleta_text">
+        Paletas de Cores
+    </p>
+
+    <?php
+    if($somatorio==157)
+    {
+        echo '<p class="paleta_text2">
+        As cores mais usadas em designs desse estilo são cores vibrantes que remetem a cultura chinesa.
+        Em sua maioria são usadas uma mistura de cores quentes e leves jogadas de tons de azul.
+    </p>';
+    }
+    
+    ?>
+
+    <br>
+
+    <?php
+    if($somatorio==157)
+    {
+        echo '<div class="paletas_chinoiserie">
+        <div class="cores1">
+            <div class="cor1"></div>
+            <div class="cor2"></div>
+            <div class="cor3"></div>
+        </div>
+
+        <div class="cores2">
+            <div class="cor4"></div>
+            <div class="cor5"></div>
+            <div class="cor6"></div>
+        </div>
+    </div>';
+    }
+    
+    ?>
+
+<?php
+    if($somatorio==118)
+    {
+        echo "Chinoiserie";
+    }
+
+
+    ?>
+
+    </p>
+
+    <?php
+    if($somatorio==118)
+    {
+        echo '<img class="brasileiro_rural" src="imagens/brasileiro_rural.png">';
+    }
+    
+    ?>
+
+    <p class="paleta_text">
+        Paletas de Cores
+    </p>
+
+    <?php
+    if($somatorio==118)
+    {
+        echo '<p class="paleta_text2">
+        As cores mais usadas em designs desse estilo são cores vibrantes que remetem a cultura chinesa.
+        Em sua maioria são usadas uma mistura de cores quentes e leves jogadas de tons de azul.
+    </p>';
+    }
+    
+    ?>
+
+    <br>
+
+    <?php
+    if($somatorio==118)
+    {
+        echo '<div class="paletas_chinoiserie">
+        <div class="cores1">
+            <div class="cor1"></div>
+            <div class="cor2"></div>
+            <div class="cor3"></div>
+        </div>
+
+        <div class="cores2">
+            <div class="cor4"></div>
+            <div class="cor5"></div>
+            <div class="cor6"></div>
+        </div>
+    </div>';
+    }
+    
+    ?>
 
     
 </body>
