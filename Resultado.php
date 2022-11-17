@@ -260,7 +260,7 @@ $somatorio=$_GET["somatorio"];
     <?php
     if($somatorio==135)
     {
-        echo '<img class="Japonês_Rural" src="imagens/Japonês_Rural.png">';
+        echo '<img class="Japonês_Rural" src="imagens/Japonês_Rural.jpg">';
     }
     
     ?>
@@ -316,7 +316,7 @@ $somatorio=$_GET["somatorio"];
     <?php
     if($somatorio==157)
     {
-        echo '<img class="europeu_rural" src="imagens/europeu_rural.png">';
+        echo '<img class="europeu_rural" src="imagens/europeu_rural.jpg">';
     }
     
     ?>
@@ -372,7 +372,7 @@ $somatorio=$_GET["somatorio"];
     <?php
     if($somatorio==118)
     {
-        echo '<img class="brasileiro_rural" src="imagens/brasileiro_rural.png">';
+        echo '<img class="brasileiro_rural" src="imagens/brasileiro_rural.jpg">';
     }
     
     ?>
@@ -390,12 +390,238 @@ $somatorio=$_GET["somatorio"];
     </p>';
     }
     
+    
+
     ?>
 
     <br>
 
     <?php
     if($somatorio==118)
+    {
+        echo '<div class="paletas_chinoiserie">
+        <div class="cores1">
+            <div class="cor1"></div>
+            <div class="cor2"></div>
+            <div class="cor3"></div>
+        </div>
+
+        <div class="cores2">
+            <div class="cor4"></div>
+            <div class="cor5"></div>
+            <div class="cor6"></div>
+        </div>
+    </div>';
+    }
+    
+    ?>
+
+<?php
+    if($somatorio==171)
+    {
+        echo "Chinoiserie";
+    }
+
+
+    ?>
+
+    </p>
+
+    <?php
+    if($somatorio==171)
+    {
+        echo '<img class="africano_rural" src="imagens/africano_rural.jpg">';
+    }
+    
+    ?>
+
+    <p class="paleta_text">
+        Paletas de Cores
+    </p>
+
+    <?php
+    if($somatorio==171)
+    {
+        echo '<p class="paleta_text2">
+        As cores mais usadas em designs desse estilo são cores vibrantes que remetem a cultura chinesa.
+        Em sua maioria são usadas uma mistura de cores quentes e leves jogadas de tons de azul.
+    </p>';
+    }
+    
+    ?>
+
+    <br>
+
+    <?php
+    if($somatorio==171)
+    {
+        echo '<div class="paletas_chinoiserie">
+        <div class="cores1">
+            <div class="cor1"></div>
+            <div class="cor2"></div>
+            <div class="cor3"></div>
+        </div>
+
+        <div class="cores2">
+            <div class="cor4"></div>
+            <div class="cor5"></div>
+            <div class="cor6"></div>
+        </div>
+    </div>';
+    }
+    
+    ?>
+
+<?php
+    if($somatorio==81)
+    {
+        echo "Chinoiserie";
+    }
+
+
+    ?>
+
+    </p>
+
+    <?php
+    if($somatorio==81)
+    {
+        echo '<img class="minecraft" src="imagens/minecraft.jpg">';
+    }
+    
+    ?>
+
+    <p class="paleta_text">
+        Paletas de Cores
+    </p>
+
+    <?php
+    if($somatorio==81)
+    {
+        echo '<p class="paleta_text2">
+        As cores mais usadas em designs desse estilo são cores vibrantes que remetem a cultura chinesa.
+        Em sua maioria são usadas uma mistura de cores quentes e leves jogadas de tons de azul.
+    </p>';
+    }
+    
+    ?>
+
+    <br>
+
+    <?php
+    if($somatorio==81)
+    {
+        echo '<div class="paletas_chinoiserie">
+        <div class="cores1">
+            <div class="cor1"></div>
+            <div class="cor2"></div>
+            <div class="cor3"></div>
+        </div>
+
+        <div class="cores2">
+            <div class="cor4"></div>
+            <div class="cor5"></div>
+            <div class="cor6"></div>
+        </div>
+    </div>';
+    }
+    
+    ?>
+
+<?php
+    if($somatorio==103)
+    {
+        echo "Chinoiserie";
+    }
+
+
+    ?>
+
+    </p>
+
+    <?php
+    if($somatorio==103)
+    {
+        echo '<img class="cj" src="imagens/cj.jpg">';
+    }
+    
+    ?>
+
+    <p class="paleta_text">
+        Paletas de Cores
+    </p>
+
+    <?php
+    if($somatorio==103)
+    {
+        echo '<p class="paleta_text2">
+        As cores mais usadas em designs desse estilo são cores vibrantes que remetem a cultura chinesa.
+        Em sua maioria são usadas uma mistura de cores quentes e leves jogadas de tons de azul.
+    </p>';
+    }
+    
+    ?>
+
+    <br>
+
+    <?php
+    if($somatorio==103)
+    {
+        echo '<div class="paletas_chinoiserie">
+        <div class="cores1">
+            <div class="cor1"></div>
+            <div class="cor2"></div>
+            <div class="cor3"></div>
+        </div>
+
+        <div class="cores2">
+            <div class="cor4"></div>
+            <div class="cor5"></div>
+            <div class="cor6"></div>
+        </div>
+    </div>';
+    }
+    
+    ?>
+
+<?php
+    if($somatorio==64)
+    {
+        echo "Chinoiserie";
+    }
+
+
+    ?>
+
+    </p>
+
+    <?php
+    if($somatorio==64)
+    {
+        echo '<img class="dk_house" src="imagens/dk_house.png">';
+    }
+    
+    ?>
+
+    <p class="paleta_text">
+        Paletas de Cores
+    </p>
+
+    <?php
+    if($somatorio==64)
+    {
+        echo '<p class="paleta_text2">
+        As cores mais usadas em designs desse estilo são cores vibrantes que remetem a cultura chinesa.
+        Em sua maioria são usadas uma mistura de cores quentes e leves jogadas de tons de azul.
+    </p>';
+    }
+    
+    ?>
+
+    <br>
+
+    <?php
+    if($somatorio==64)
     {
         echo '<div class="paletas_chinoiserie">
         <div class="cores1">
