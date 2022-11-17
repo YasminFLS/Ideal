@@ -55,8 +55,8 @@ html {
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 680px;
-    margin-top: 320px;
+    margin-left: 720px;
+    margin-top: 340px;
     flex-direction: row;
     font-size: 30px;
     justify-content: center;
@@ -80,7 +80,7 @@ html {
     display: flex;
     margin-top: 90px;
     align-items: center;
-    margin-left: 660px;
+    margin-left: -253px;
     border-radius: 120px;
     width: 230px;
     height: 230px;
@@ -134,6 +134,13 @@ html {
     position: absolute;
     margin-top: 280px;
     margin-left: 5px;
+    width: 50px;
+}
+.logout_icon
+{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: -290px;
     width: 50px;
 }
 
