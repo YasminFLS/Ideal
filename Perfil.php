@@ -13,7 +13,7 @@
 
     <div class="cabecalho">
     <a href="inicio_com_conta.php"><img class="logo" src="imagens/logo.png" height="40px"></a>
-        <a href="Agendamentos.html"><img class="agendamento" src="imagens/Agendamento.png" height="40px"></a>
+        <a href="Agendamentos.php"><img class="agendamento" src="imagens/Agendamento.png" height="40px"></a>
         <a href="quiz_com_conta.php"><img class="quiz" src="imagens/quiz.png" height="40px"></a>
         <img class="ima" src="<?php echo $_SESSION['foto_usuario']; ?>" height="40px">
     </div>

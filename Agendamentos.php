@@ -1,14 +1,5 @@
 <?php session_start(); ?>
-<?php
-include("listar_usuario.php");
 
-session_start();
-// Verifique se o usuário está logado, se não, redirecione-o para uma página de login
-if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
-    header("location: login.html");
-    exit;
-}
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -44,9 +35,8 @@ if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
     <input type="submit" name="submit" class="botao1" value="Pesquisar" onclick="redirect()">
 
     <?php
-        session_start();
         if ($_SESSION['tipo_usuario']==1){
-    echo'<a href="Agendamentos_adm.php"><input class="botao_adm1" type="button" value="Administração agendamento"></a>';
+    echo'<a href="Agendamentos_adm.php"><input class="botao_adm1" type="button" value="Administração"></a>';
         }
         ?>
 

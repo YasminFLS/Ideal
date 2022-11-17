@@ -86,3 +86,18 @@ html {
     height: fit-content;
 
 }
+.botao_adm1
+{
+    background-color: #49586B;
+    width: 220px;
+    height: 60px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: -500px;
+    font-size: 30px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: none;
+    text-align: center;
+    font-family: Georgia, serif;
+}
