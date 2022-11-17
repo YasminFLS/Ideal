@@ -120,7 +120,7 @@ html {
     height: 55px;
     display: flex;
     position: absolute;
-    margin-left: 620px;
+    margin-left: -270px;
     margin-top: 770px;
     font-size: 23px;
     justify-content: center;
