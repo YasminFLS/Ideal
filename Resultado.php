@@ -78,6 +78,117 @@ $somatorio=$_GET["somatorio"];
     
     ?>
     
+    <?php
+    if($somatorio==113)
+    {
+        echo "Chinoiserie";
+    }
+
+
+    ?>
+
+    </p>
+
+    <?php
+    if($somatorio==113)
+    {
+        echo '<img class="eclectic" src="imagens/eclectic.png">';
+    }
+    
+    ?>
+
+    <p class="paleta_text">
+        Paletas de Cores
+    </p>
+
+    <?php
+    if($somatorio==113)
+    {
+        echo '<p class="paleta_text2">
+        As cores mais usadas em designs desse estilo são cores vibrantes que remetem a cultura chinesa.
+        Em sua maioria são usadas uma mistura de cores quentes e leves jogadas de tons de azul.
+    </p>';
+    }
+    
+    ?>
+
+    <br>
+
+    <?php
+    if($somatorio==113)
+    {
+        echo '<div class="paletas_chinoiserie">
+        <div class="cores1">
+            <div class="cor1"></div>
+            <div class="cor2"></div>
+            <div class="cor3"></div>
+        </div>
+
+        <div class="cores2">
+            <div class="cor4"></div>
+            <div class="cor5"></div>
+            <div class="cor6"></div>
+        </div>
+    </div>';
+    }
+    
+    ?>
+
+<?php
+    if($somatorio==74)
+    {
+        echo "Chinoiserie";
+    }
+
+
+    ?>
+
+    </p>
+
+    <?php
+    if($somatorio==74)
+    {
+        echo '<img class="Brasileiro" src="imagens/Brasileiro.png">';
+    }
+    
+    ?>
+
+    <p class="paleta_text">
+        Paletas de Cores
+    </p>
+
+    <?php
+    if($somatorio==74)
+    {
+        echo '<p class="paleta_text2">
+        As cores mais usadas em designs desse estilo são cores vibrantes que remetem a cultura chinesa.
+        Em sua maioria são usadas uma mistura de cores quentes e leves jogadas de tons de azul.
+    </p>';
+    }
+    
+    ?>
+
+    <br>
+
+    <?php
+    if($somatorio==74)
+    {
+        echo '<div class="paletas_chinoiserie">
+        <div class="cores1">
+            <div class="cor1"></div>
+            <div class="cor2"></div>
+            <div class="cor3"></div>
+        </div>
+
+        <div class="cores2">
+            <div class="cor4"></div>
+            <div class="cor5"></div>
+            <div class="cor6"></div>
+        </div>
+    </div>';
+    }
+    
+    ?>
 
 
     
