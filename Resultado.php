@@ -23,27 +23,45 @@ $somatorio=$_GET["somatorio"];
     </p>
     <p class="result">
     <?php
-    if($somatorio==0)
+    if($somatorio==91)
     {
-        echo "Simples";
+        echo "Chinoiserie";
     }
+
+
     ?>
+
     </p>
 
-    <img class="exemplo_result" src="imagens/exemplo result.png">
+    <?php
+    if($somatorio==91)
+    {
+        echo '<img class="chinoiserie_foto" src="imagens/chinoiserie.png">';
+    }
+    
+    ?>
 
     <p class="paleta_text">
         Paletas de Cores
     </p>
 
+    <?php
+    if($somatorio==91)
+    {
+        echo '<p class="paleta_text2">
+        As cores mais usadas em designs desse estilo são cores vibrantes que remetem a cultura chinesa.
+        Em sua maioria são usadas uma mistura de cores quentes e leves jogadas de tons de azul.
+    </p>';
+    }
+    
+    ?>
+
     <br>
 
-    <p class="paleta_text2">
-        As cores mais usadas em designs minimalistas são branco, preto e cores terrosas.
-        Em sua maioria são usadas uma mistura de cores quentes e frias.
-    </p>
-
-    <div class="paletas">
+    <?php
+    if($somatorio==91)
+    {
+        echo '<div class="paletas_chinoiserie">
         <div class="cores1">
             <div class="cor1"></div>
             <div class="cor2"></div>
@@ -55,7 +73,13 @@ $somatorio=$_GET["somatorio"];
             <div class="cor5"></div>
             <div class="cor6"></div>
         </div>
-    </div>
+    </div>';
+    }
+    
+    ?>
+    
+
+
     
 </body>
 

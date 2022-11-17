@@ -145,20 +145,20 @@ html {
 }
 
 .cor1 {
-    background-color: #CB997E;
+    background-color: #cda139;
     width: 100px;
     height: 200px;
 }
 
 .cor2 {
-    background-color: #EEDDDD;
+    background-color: #9fd1d6;
     width: 100px;
     height: 200px;
     margin-left: 5px;
 }
 
 .cor3 {
-    background-color: #A5A58D;
+    background-color: #662f1d;
     width: 100px;
     height: 200px;
     margin-left: 5px;
@@ -176,20 +176,20 @@ html {
 }
 
 .cor4 {
-    background-color: #212529;
+    background-color: #95070f;
     width: 100px;
     height: 200px;
 }
 
 .cor5 {
-    background-color: #6C757C;
+    background-color: #aa7265;
     width: 100px;
     height: 200px;
     margin-left: 5px;
 }
 
 .cor6 {
-    background-color: #DADADA;
+    background-color: #eebda5;
     width: 100px;
     height: 200px;
     margin-left: 5px;
@@ -200,4 +200,17 @@ html {
     width: 80px;
     position: absolute;
     margin-top: 200px;
+}
+.chinoiserie_foto
+{
+    margin-left: 450px;
+    margin-top: -20px;
+    width: 650px;
+
+}
+.paletas_chinoiserie {
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+    width: fit-content;
 }
