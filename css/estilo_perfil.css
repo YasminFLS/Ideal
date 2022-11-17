@@ -42,8 +42,9 @@ html {
 
 .ima
 {
+    position: absolute;
+    right: 20px;
     margin-top: 5px;
-    margin-left: 1270px;
     border-radius: 120px;
     height: 45px;
     width: 45px;
@@ -71,13 +72,12 @@ html {
     position: absolute;
     margin-top: 480px;
     align-items: center;
-    margin-left: 30%;
+    margin-left: 475px;
     margin-top: 400px;
 }
 
 .imagem {
     display: flex;
-    position: absolute;
     margin-top: 90px;
     align-items: center;
     margin-left: 660px;
@@ -106,11 +106,11 @@ html {
     height: 55px;
     display: flex;
     position: absolute;
-    margin-left: 620px;
+    margin-left: -268px;
     margin-top: 700px;
     font-size: 23px;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: Georgia, serif;
     background-color: #CFE0DD;
     border: 0px;
@@ -124,20 +124,26 @@ html {
     margin-top: 770px;
     font-size: 23px;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: 5px;
     font-family: Georgia, serif;
     background-color: #CFE0DD;
     border: 0px;
 }
+.user_edit
+{
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 5px;
+    width: 50px;
+}
 
 .botao_usu {
     width: 500px;
-    height: 70px;
+    height: 50px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 720px;
-    margin-top: 90px;
+    margin-top: 40px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -151,12 +157,11 @@ html {
 
 .botao_sen {
     width: 500px;
-    height: 70px;
+    height: 50px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 720px;
-    margin-top: 180px;
+    margin-top: 110px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -170,12 +175,11 @@ html {
 
 .botao_tel {
     width: 500px;
-    height: 70px;
+    height: 50px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 720px;
-    margin-top: 270px;
+    margin-top: 180px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -189,12 +193,11 @@ html {
 
 .botao_rua {
     width: 500px;
-    height: 70px;
+    height: 50px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 720px;
-    margin-top: 360px;
+    margin-top: 250px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -207,12 +210,11 @@ html {
 }
 .botao_bai {
     width: 500px;
-    height: 70px;
+    height: 50px;
     display: flex;
     position: absolute;
     align-items: center;
-    margin-left: 720px;
-    margin-top: 450px;
+    margin-top: 320px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -226,10 +228,10 @@ html {
 
 .botao_bio {
     width: 500px;
-    height: 200px;
+    height: 150px;
     position: absolute;
-    margin-left: 720px;
-    margin-top: 540px;
+    margin-top: 410px;
+    margin-left: 330px;
     font-size: 23px;
     margin: center;
     border-radius: 10px;
@@ -244,8 +246,8 @@ html {
     height: 60px;
     position: absolute;
     align-items: center;
-    margin-left: 1240px;
-    margin-top: 680px;
+    margin-left: 330px;
+    margin-top: 600px;
     flex-direction: row;
     font-size: 23px;
     justify-content: center;
@@ -306,11 +308,4 @@ html {
     border-radius: 120px;
     width: 230px;
     height: 230px;
-}
-.user_edit
-{
-    position: absolute;
-    margin-top: 280px;
-    margin-left: 860px;
-    width: 50px;
 }

@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 
 <head>
@@ -7,13 +8,12 @@
     <link rel="stylesheet" href="css/estilo_inicio.css">
     <title>Início</title>
 </head>
-
 <body>
     <div class="cabecalho">
         <img class="logo" src="imagens/logo.png" height="40px">
         <a href="Agendamentos.php"><img class="agenda_simb" src="imagens/agenda_simbol.png" height="40px"></a>
         <a href="quiz_com_conta.php"><img class="quiz_simb" src="imagens/quiz_simbol.png" height="40px"></a>
-        <a href="Perfil.php"><img class="ima" src="imagens/imagem.jpg" height="40px"></a>
+        <a href="Perfil.php"><img class="ima" src="<?php echo $_SESSION['foto_usuario']; ?>" height="40px"></a>
     </div>
 
     <div class="corpo">

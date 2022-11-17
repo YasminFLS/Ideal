@@ -4,7 +4,7 @@
     $nome= $_POST["nome"];
     $set_senha = $_POST["senha"];
 
-    $comando = $pdo->prepare("SELECT id_usuario, senha_usuario, tipo_usuario FROM usuario WHERE nome_usuario = :nome");
+    $comando = $pdo->prepare("SELECT id_usuario, senha_usuario, tipo_usuario, nome_usuario, foto_usuario FROM usuario WHERE nome_usuario = :nome");
         
     $comando->bindvalue(":nome", $nome);
 
@@ -18,10 +18,12 @@
 
             session_start();
             $_SESSION['id_usuario'] = $resultado['id_usuario'];
+            $_SESSION['nome_usuario'] = $resultado['nome_usuario'];
             $_SESSION['tipo_usuario'] = $resultado['tipo_usuario'];
+            $_SESSION['foto_usuario'] = $resultado['foto_usuario'];
             $_SESSION['loggedin'] = true;
 
-            header("location:inicio_com_conta.html");
+            header("location:inicio_com_conta.php");
 
         }else{
             echo("Email ou senha incorreto!");
